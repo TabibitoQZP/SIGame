@@ -1,0 +1,28 @@
+{
+  "method": "multi_agent",
+  "backend": "gameworld",
+  "task_id": "18_05",
+  "game_seconds": 60,
+  "tick_ms": 200,
+  "response_floor_ms": 3000,
+  "initial": "cold",
+  "initial_seconds": 60,
+  "initial_requests": 20,
+  "model": "Qwen3.5-2B-RTC32-RL-STEP229",
+  "initial_model": "Qwen3.5-2B-RTC32-RL-STEP229",
+  "developer_model": "Qwen3.8-27B",
+  "endpoints": {
+    "rtc": {
+      "url_env": "RTC_BASE_URL",
+      "key_env": "RTC_API_KEY"
+    },
+    "anthropic": {
+      "url_env": "ANTHROPIC_BASE_URL",
+      "key_env": "ANTHROPIC_API_KEY"
+    }
+  },
+  "branch_submissions": 8,
+  "branch_output_tokens": 262144,
+  "midpoint_submit": 4,
+  "review_output_tokens": 8192
+}

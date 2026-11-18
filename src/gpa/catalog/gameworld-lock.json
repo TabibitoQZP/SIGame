@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/gameworld-project/GameWorld-Games.git",
+  "commit": "e5ddb16df85b91a1d17bb0577621cc7c5e65d738",
+  "manifest_sha256": "e65e6cfc2ca386bcdbcbe9227d5600775e2e9d98a897ecf8b4486a163e6bc9a6",
+  "task_catalog_sha256": "c554fefa9951964ada1f578914b17dc2e0bc6d8ec542218193db8e588ecd6144",
+  "paper_task_source_sha256": "91448337fd9639ea8515456714590de4ffd6d5b961957350bef51f304fad6531",
+  "upstream_evaluator_commit": "c973632ee8458a0c3c902c797fbdf1104ad53e51",
+  "upstream_evaluator_sha256": "7d191c8d79a8c126afe6f121301c093c13fe3ca28726e7a5d45c6d72e037bbc3",
+  "games": 34,
+  "tasks": 170,
+  "task_contracts_sha256": "756cab0e69b490948d7f4e38b6466fa1183a509faca2422e50432cdb2ae615af"
+}

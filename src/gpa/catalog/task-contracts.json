@@ -1,0 +1,2624 @@
+{
+  "01_01": {
+    "objective": {
+      "reach": {
+        "metrics.max_tile": 32
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.level"
+    ]
+  },
+  "01_02": {
+    "objective": {
+      "reach": {
+        "metrics.max_tile": 64
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.level"
+    ]
+  },
+  "01_03": {
+    "objective": {
+      "reach": {
+        "metrics.max_tile": 128
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.level"
+    ]
+  },
+  "01_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 512
+      }
+    },
+    "metrics_fields": [
+      "game_state.level"
+    ]
+  },
+  "01_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 1024
+      }
+    },
+    "metrics_fields": [
+      "game_state.level"
+    ]
+  },
+  "02_01": {
+    "objective": {
+      "reach": {
+        "metrics.session_coins_collected": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.coins_total"
+    ]
+  },
+  "02_02": {
+    "objective": {
+      "reach": {
+        "metrics.session_coins_collected": 2
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.coins_total",
+      "metrics.deaths"
+    ]
+  },
+  "02_03": {
+    "objective": {
+      "reach": {
+        "metrics.session_coins_collected": 3
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.coins_total"
+    ]
+  },
+  "02_04": {
+    "objective": {
+      "reach": {
+        "metrics.session_coins_collected": 4
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.coins_total"
+    ]
+  },
+  "02_05": {
+    "objective": {
+      "reach": {
+        "metrics.session_coins_collected": 5
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.coins_total"
+    ]
+  },
+  "03_01": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1.0
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "03_02": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1.0
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "03_03": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1.0
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "03_04": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1.0
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "03_05": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1.0
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "04_01": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 0.5
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "metrics.distance"
+    ]
+  },
+  "04_02": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1.0
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "metrics.distance"
+    ]
+  },
+  "04_03": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 0.5
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "metrics.distance"
+    ]
+  },
+  "04_04": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1.0
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "metrics.distance"
+    ]
+  },
+  "04_05": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1.0
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "metrics.distance"
+    ]
+  },
+  "05_01": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.level",
+      "metrics.lives",
+      "metrics.bricks_remaining",
+      "metrics.bricks_total"
+    ]
+  },
+  "05_02": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.level",
+      "metrics.lives",
+      "metrics.bricks_remaining",
+      "metrics.bricks_total"
+    ]
+  },
+  "05_03": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.level",
+      "metrics.lives",
+      "metrics.bricks_remaining",
+      "metrics.bricks_total"
+    ]
+  },
+  "05_04": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.level",
+      "metrics.lives",
+      "metrics.bricks_remaining",
+      "metrics.bricks_total"
+    ]
+  },
+  "05_05": {
+    "objective": {
+      "reach": {
+        "game_state.completion_progress": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.level",
+      "metrics.lives",
+      "metrics.bricks_remaining",
+      "metrics.bricks_total"
+    ]
+  },
+  "06_01": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 6
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.player",
+      "metrics.coins_total",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "06_02": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 8
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.player",
+      "metrics.coins_total",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "06_03": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 7
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.player",
+      "metrics.coins_total",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "06_04": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 15
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.player",
+      "metrics.coins_total",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "06_05": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 12
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.player",
+      "metrics.coins_total",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.distance_to_goal"
+    ]
+  },
+  "07_01": {
+    "objective": {
+      "reach": {
+        "game_state.score": 100
+      }
+    },
+    "metrics_fields": [
+      "metrics.distance",
+      "metrics.speed",
+      "metrics.attempts",
+      "metrics.high_score"
+    ]
+  },
+  "07_02": {
+    "objective": {
+      "reach": {
+        "game_state.score": 200
+      }
+    },
+    "metrics_fields": [
+      "metrics.distance",
+      "metrics.speed",
+      "metrics.attempts",
+      "metrics.high_score"
+    ]
+  },
+  "07_03": {
+    "objective": {
+      "reach": {
+        "game_state.score": 400
+      }
+    },
+    "metrics_fields": [
+      "metrics.distance",
+      "metrics.speed",
+      "metrics.attempts",
+      "metrics.high_score"
+    ]
+  },
+  "07_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 600
+      }
+    },
+    "metrics_fields": [
+      "metrics.distance",
+      "metrics.speed",
+      "metrics.attempts",
+      "metrics.high_score"
+    ]
+  },
+  "07_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 800
+      }
+    },
+    "metrics_fields": [
+      "metrics.distance",
+      "metrics.speed",
+      "metrics.attempts",
+      "metrics.high_score"
+    ]
+  },
+  "08_01": {
+    "objective": {
+      "reach": {
+        "game_state.score": 8
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.queue_remaining",
+      "metrics.queue_total",
+      "metrics.attached_count",
+      "metrics.initial_attached",
+      "metrics.total_required",
+      "metrics.attempts"
+    ]
+  },
+  "08_02": {
+    "objective": {
+      "reach": {
+        "game_state.score": 10
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.queue_remaining",
+      "metrics.queue_total",
+      "metrics.attached_count",
+      "metrics.initial_attached",
+      "metrics.total_required",
+      "metrics.attempts"
+    ]
+  },
+  "08_03": {
+    "objective": {
+      "reach": {
+        "game_state.score": 20
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.queue_remaining",
+      "metrics.queue_total",
+      "metrics.attached_count",
+      "metrics.initial_attached",
+      "metrics.total_required",
+      "metrics.attempts"
+    ]
+  },
+  "08_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 12
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.queue_remaining",
+      "metrics.queue_total",
+      "metrics.attached_count",
+      "metrics.initial_attached",
+      "metrics.total_required",
+      "metrics.attempts"
+    ]
+  },
+  "08_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 8
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.queue_remaining",
+      "metrics.queue_total",
+      "metrics.attached_count",
+      "metrics.initial_attached",
+      "metrics.total_required",
+      "metrics.attempts"
+    ]
+  },
+  "09_01": {
+    "objective": {
+      "reach": {
+        "game_state.score": 10000
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.speed_forward",
+      "metrics.speed_side",
+      "metrics.cubes_alive",
+      "metrics.high_score"
+    ]
+  },
+  "09_02": {
+    "objective": {
+      "reach": {
+        "game_state.score": 20000
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.speed_forward",
+      "metrics.speed_side",
+      "metrics.cubes_alive",
+      "metrics.high_score"
+    ]
+  },
+  "09_03": {
+    "objective": {
+      "reach": {
+        "game_state.score": 35000
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.speed_forward",
+      "metrics.speed_side",
+      "metrics.cubes_alive",
+      "metrics.high_score"
+    ]
+  },
+  "09_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 60000
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.speed_forward",
+      "metrics.speed_side",
+      "metrics.cubes_alive",
+      "metrics.high_score"
+    ]
+  },
+  "09_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 100000
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.speed_forward",
+      "metrics.speed_side",
+      "metrics.cubes_alive",
+      "metrics.high_score"
+    ]
+  },
+  "10_01": {
+    "objective": {
+      "reach": {
+        "game_state.score": 200
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.platforms_visible"
+    ]
+  },
+  "10_02": {
+    "objective": {
+      "reach": {
+        "game_state.score": 500
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.platforms_visible"
+    ]
+  },
+  "10_03": {
+    "objective": {
+      "reach": {
+        "game_state.score": 1000
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.platforms_visible"
+    ]
+  },
+  "10_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 3000
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.platforms_visible"
+    ]
+  },
+  "10_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 10000
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.platforms_visible"
+    ]
+  },
+  "11_01": {
+    "objective": {
+      "reach": {
+        "game_state.score": 200
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.lives",
+      "metrics.boosts",
+      "metrics.shields",
+      "metrics.attempts"
+    ]
+  },
+  "11_02": {
+    "objective": {
+      "reach": {
+        "game_state.score": 500
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.lives",
+      "metrics.boosts",
+      "metrics.shields",
+      "metrics.attempts"
+    ]
+  },
+  "11_03": {
+    "objective": {
+      "reach": {
+        "game_state.score": 800
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.lives",
+      "metrics.boosts",
+      "metrics.shields",
+      "metrics.attempts"
+    ]
+  },
+  "11_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 1200
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.lives",
+      "metrics.boosts",
+      "metrics.shields",
+      "metrics.attempts"
+    ]
+  },
+  "11_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 2000
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.lives",
+      "metrics.boosts",
+      "metrics.shields",
+      "metrics.attempts"
+    ]
+  },
+  "12_01": {
+    "objective": {
+      "reach": {
+        "game_state.diamonds.fireboy.collected": 1,
+        "game_state.diamonds.watergirl.collected": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.diamonds.fireboy.total",
+      "game_state.diamonds.watergirl.total",
+      "metrics.coins",
+      "metrics.coins_total"
+    ]
+  },
+  "12_02": {
+    "objective": {
+      "reach": {
+        "game_state.diamonds.fireboy.collected": 3,
+        "game_state.diamonds.watergirl.collected": 4
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.diamonds.fireboy.total",
+      "game_state.diamonds.watergirl.total",
+      "metrics.coins",
+      "metrics.coins_total"
+    ]
+  },
+  "12_03": {
+    "objective": {
+      "reach": {
+        "game_state.diamonds.fireboy.collected": 8,
+        "game_state.diamonds.watergirl.collected": 8
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.diamonds.fireboy.total",
+      "game_state.diamonds.watergirl.total",
+      "metrics.coins",
+      "metrics.coins_total"
+    ]
+  },
+  "12_04": {
+    "objective": {
+      "reach": {
+        "game_state.diamonds.fireboy.collected": 10,
+        "game_state.diamonds.watergirl.collected": 10
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.diamonds.fireboy.total",
+      "game_state.diamonds.watergirl.total",
+      "metrics.coins",
+      "metrics.coins_total"
+    ]
+  },
+  "12_05": {
+    "objective": {
+      "reach": {
+        "game_state.diamonds.fireboy.collected": 6,
+        "game_state.diamonds.watergirl.collected": 6
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.diamonds.fireboy.total",
+      "game_state.diamonds.watergirl.total",
+      "metrics.coins",
+      "metrics.coins_total"
+    ]
+  },
+  "13_01": {
+    "objective": {
+      "reach": {
+        "metrics.pipes_passed": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.pipes_visible",
+      "metrics.best_score"
+    ]
+  },
+  "13_02": {
+    "objective": {
+      "reach": {
+        "metrics.pipes_passed": 3
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.pipes_visible",
+      "metrics.best_score"
+    ]
+  },
+  "13_03": {
+    "objective": {
+      "reach": {
+        "metrics.pipes_passed": 6
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.pipes_visible",
+      "metrics.best_score"
+    ]
+  },
+  "13_04": {
+    "objective": {
+      "reach": {
+        "metrics.pipes_passed": 10
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.pipes_visible",
+      "metrics.best_score"
+    ]
+  },
+  "13_05": {
+    "objective": {
+      "reach": {
+        "metrics.pipes_passed": 15
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.distance",
+      "metrics.pipes_visible",
+      "metrics.best_score"
+    ]
+  },
+  "14_01": {
+    "objective": {
+      "reach": {
+        "game_state.score": 50
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.completion_progress",
+      "metrics.distance",
+      "metrics.points",
+      "metrics.best_score",
+      "metrics.deaths",
+      "game_state.mode",
+      "game_state.player_die"
+    ]
+  },
+  "14_02": {
+    "objective": {
+      "reach": {
+        "game_state.score": 100
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.completion_progress",
+      "metrics.distance",
+      "metrics.points",
+      "metrics.best_score",
+      "metrics.deaths",
+      "game_state.mode",
+      "game_state.player_die"
+    ]
+  },
+  "14_03": {
+    "objective": {
+      "reach": {
+        "game_state.score": 200
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.completion_progress",
+      "metrics.distance",
+      "metrics.points",
+      "metrics.best_score",
+      "metrics.deaths",
+      "game_state.mode",
+      "game_state.player_die"
+    ]
+  },
+  "14_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 200
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.completion_progress",
+      "metrics.distance",
+      "metrics.points",
+      "metrics.best_score",
+      "metrics.deaths",
+      "game_state.mode",
+      "game_state.player_die"
+    ]
+  },
+  "14_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 200
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.completion_progress",
+      "metrics.distance",
+      "metrics.points",
+      "metrics.best_score",
+      "metrics.deaths",
+      "game_state.mode",
+      "game_state.player_die"
+    ]
+  },
+  "15_01": {
+    "objective": {
+      "reach": {
+        "metrics.apples_eaten": 2
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.snake_length",
+      "metrics.speed",
+      "metrics.board_width",
+      "metrics.board_height"
+    ]
+  },
+  "15_02": {
+    "objective": {
+      "reach": {
+        "metrics.apples_eaten": 3
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.snake_length",
+      "metrics.speed",
+      "metrics.board_width",
+      "metrics.board_height"
+    ]
+  },
+  "15_03": {
+    "objective": {
+      "reach": {
+        "metrics.apples_eaten": 6
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.snake_length",
+      "metrics.speed",
+      "metrics.board_width",
+      "metrics.board_height"
+    ]
+  },
+  "15_04": {
+    "objective": {
+      "reach": {
+        "metrics.apples_eaten": 10
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.snake_length",
+      "metrics.speed",
+      "metrics.board_width",
+      "metrics.board_height"
+    ]
+  },
+  "15_05": {
+    "objective": {
+      "reach": {
+        "metrics.apples_eaten": 15
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.snake_length",
+      "metrics.speed",
+      "metrics.board_width",
+      "metrics.board_height"
+    ]
+  },
+  "16_01": {
+    "objective": {
+      "reach": {
+        "game_state.score": 500
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "game_state.environment.settled_blocks",
+      "game_state.environment.highest_column_height",
+      "game_state.environment.active_blocks",
+      "metrics.score",
+      "metrics.distance",
+      "metrics.best_score",
+      "metrics.difficulty",
+      "metrics.topped_out"
+    ]
+  },
+  "16_02": {
+    "objective": {
+      "reach": {
+        "game_state.score": 750
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "game_state.environment.settled_blocks",
+      "game_state.environment.highest_column_height",
+      "game_state.environment.active_blocks",
+      "metrics.score",
+      "metrics.distance",
+      "metrics.best_score",
+      "metrics.difficulty",
+      "metrics.topped_out"
+    ]
+  },
+  "16_03": {
+    "objective": {
+      "reach": {
+        "game_state.score": 1000
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "game_state.environment.settled_blocks",
+      "game_state.environment.highest_column_height",
+      "game_state.environment.active_blocks",
+      "metrics.score",
+      "metrics.distance",
+      "metrics.best_score",
+      "metrics.difficulty",
+      "metrics.topped_out"
+    ]
+  },
+  "16_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 1250
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "game_state.environment.settled_blocks",
+      "game_state.environment.highest_column_height",
+      "game_state.environment.active_blocks",
+      "metrics.score",
+      "metrics.distance",
+      "metrics.best_score",
+      "metrics.difficulty",
+      "metrics.topped_out"
+    ]
+  },
+  "16_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 1500
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "game_state.environment.settled_blocks",
+      "game_state.environment.highest_column_height",
+      "game_state.environment.active_blocks",
+      "metrics.score",
+      "metrics.distance",
+      "metrics.best_score",
+      "metrics.difficulty",
+      "metrics.topped_out"
+    ]
+  },
+  "17_01": {
+    "objective": {
+      "reach": {
+        "metrics.score_earned": 200
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.lives",
+      "metrics.time_left_s",
+      "metrics.level_progress_percent"
+    ]
+  },
+  "17_02": {
+    "objective": {
+      "reach": {
+        "metrics.score_earned": 400
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.lives",
+      "metrics.time_left_s",
+      "metrics.level_progress_percent"
+    ]
+  },
+  "17_03": {
+    "objective": {
+      "reach": {
+        "metrics.score_earned": 1500
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.lives",
+      "metrics.time_left_s",
+      "metrics.level_progress_percent"
+    ]
+  },
+  "17_04": {
+    "objective": {
+      "reach": {
+        "metrics.score_earned": 2500
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.lives",
+      "metrics.time_left_s",
+      "metrics.level_progress_percent"
+    ]
+  },
+  "17_05": {
+    "objective": {
+      "reach": {
+        "metrics.score_earned": 4000
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "game_state.level",
+      "metrics.coins",
+      "metrics.lives",
+      "metrics.time_left_s",
+      "metrics.level_progress_percent"
+    ]
+  },
+  "18_01": {
+    "objective": {
+      "reach": {
+        "game_state.inventory.item_gains.dirt": 20
+      }
+    },
+    "metrics_fields": [
+      "game_state.inventory.item_counts.dirt",
+      "metrics.items_total",
+      "metrics.items_unique",
+      "metrics.held_selected_item_type",
+      "metrics.held_selected_item_count",
+      "game_state.inventory.selected_slot",
+      "game_state.environment.targeted_block.block_type",
+      "game_state.environment.break_progress",
+      "gameTimeMs"
+    ]
+  },
+  "18_02": {
+    "objective": {
+      "reach": {
+        "game_state.inventory.item_gains.wood_log": 20
+      }
+    },
+    "metrics_fields": [
+      "game_state.inventory.item_counts.wood_log",
+      "metrics.items_total",
+      "metrics.items_unique",
+      "metrics.held_selected_item_type",
+      "metrics.held_selected_item_count",
+      "game_state.inventory.selected_slot",
+      "game_state.environment.targeted_block.block_type",
+      "game_state.environment.break_progress",
+      "gameTimeMs"
+    ]
+  },
+  "18_03": {
+    "objective": {
+      "reach": {
+        "game_state.inventory.item_gains.leaves": 50
+      }
+    },
+    "metrics_fields": [
+      "metrics.items_total",
+      "metrics.items_unique",
+      "metrics.held_selected_item_type",
+      "metrics.held_selected_item_count",
+      "game_state.inventory.selected_slot",
+      "game_state.environment.targeted_block.block_type",
+      "game_state.environment.break_progress",
+      "gameTimeMs"
+    ]
+  },
+  "18_04": {
+    "objective": {
+      "reach": {
+        "game_state.inventory.item_gains.stone": 20
+      }
+    },
+    "metrics_fields": [
+      "metrics.items_total",
+      "metrics.items_unique",
+      "game_state.inventory.item_gains.dirt",
+      "game_state.inventory.item_gains.wood_log",
+      "game_state.inventory.item_gains.coal_ore",
+      "metrics.selected_tool_type",
+      "metrics.selected_tool_matches_target",
+      "metrics.targeted_block_exists",
+      "metrics.targeted_block_type",
+      "metrics.targeted_block_distance",
+      "metrics.depth_below_surface",
+      "metrics.is_underground",
+      "metrics.nearby_stone_count",
+      "metrics.nearest_stone_distance",
+      "metrics.held_selected_item_type",
+      "metrics.held_selected_item_count",
+      "game_state.inventory.selected_slot",
+      "game_state.environment.targeted_block.block_type",
+      "game_state.environment.player_context.block_below",
+      "game_state.environment.player_context.surface_y",
+      "game_state.environment.nearby_resources.stone.count",
+      "game_state.environment.break_progress",
+      "gameTimeMs"
+    ]
+  },
+  "18_05": {
+    "objective": {
+      "reach": {
+        "game_state.inventory.item_gains.iron_ore": 5
+      }
+    },
+    "metrics_fields": [
+      "metrics.items_total",
+      "metrics.items_unique",
+      "game_state.inventory.item_gains.dirt",
+      "game_state.inventory.item_gains.wood_log",
+      "game_state.inventory.item_gains.stone",
+      "game_state.inventory.item_gains.coal_ore",
+      "metrics.selected_tool_type",
+      "metrics.selected_tool_matches_target",
+      "metrics.targeted_block_exists",
+      "metrics.targeted_block_type",
+      "metrics.targeted_block_distance",
+      "metrics.depth_below_surface",
+      "metrics.is_underground",
+      "metrics.nearby_iron_ore_count",
+      "metrics.nearest_iron_ore_distance",
+      "metrics.held_selected_item_type",
+      "metrics.held_selected_item_count",
+      "game_state.inventory.selected_slot",
+      "game_state.environment.targeted_block.block_type",
+      "game_state.environment.player_context.block_below",
+      "game_state.environment.player_context.surface_y",
+      "game_state.environment.nearby_resources.iron_ore.count",
+      "game_state.environment.break_progress",
+      "gameTimeMs"
+    ]
+  },
+  "19_01": {
+    "objective": {
+      "reach": {
+        "metrics.revealed_safe_cells": 58
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.primary_score",
+      "metrics.total_safe_cells",
+      "metrics.correct_flags",
+      "metrics.total_mines",
+      "metrics.remaining_mines"
+    ]
+  },
+  "19_02": {
+    "objective": {
+      "reach": {
+        "metrics.revealed_safe_cells": 63
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.primary_score",
+      "metrics.total_safe_cells",
+      "metrics.correct_flags",
+      "metrics.total_mines",
+      "metrics.remaining_mines"
+    ]
+  },
+  "19_03": {
+    "objective": {
+      "reach": {
+        "metrics.revealed_safe_cells": 68
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.primary_score",
+      "metrics.total_safe_cells",
+      "metrics.correct_flags",
+      "metrics.total_mines",
+      "metrics.remaining_mines"
+    ]
+  },
+  "19_04": {
+    "objective": {
+      "reach": {
+        "metrics.correct_flags": 3
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.primary_score",
+      "metrics.revealed_safe_cells",
+      "metrics.total_safe_cells",
+      "metrics.total_mines",
+      "metrics.remaining_mines"
+    ]
+  },
+  "19_05": {
+    "objective": {
+      "reach": {
+        "metrics.correct_flags": 6
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.completion_progress",
+      "game_state.level",
+      "metrics.primary_score",
+      "metrics.revealed_safe_cells",
+      "metrics.total_safe_cells",
+      "metrics.total_mines",
+      "metrics.remaining_mines"
+    ]
+  },
+  "20_01": {
+    "objective": {
+      "reach": {
+        "game_state.money_total_earned": 30
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.score",
+      "game_state.money",
+      "metrics.primary_score",
+      "game_state.money_scan_status"
+    ]
+  },
+  "20_02": {
+    "objective": {
+      "reach": {
+        "game_state.money_total_earned": 50
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.score",
+      "game_state.money",
+      "metrics.primary_score",
+      "game_state.money_scan_status"
+    ]
+  },
+  "20_03": {
+    "objective": {
+      "reach": {
+        "game_state.money_total_earned": 75
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.score",
+      "game_state.money",
+      "metrics.primary_score",
+      "game_state.money_scan_status"
+    ]
+  },
+  "20_04": {
+    "objective": {
+      "reach": {
+        "game_state.money_total_earned": 100
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.score",
+      "game_state.money",
+      "metrics.primary_score",
+      "game_state.money_scan_status"
+    ]
+  },
+  "20_05": {
+    "objective": {
+      "reach": {
+        "game_state.money_total_earned": 130
+      }
+    },
+    "metrics_fields": [
+      "gameTimeMs",
+      "game_state.score",
+      "game_state.money",
+      "metrics.primary_score",
+      "game_state.money_scan_status"
+    ]
+  },
+  "21_01": {
+    "objective": {
+      "reach": {
+        "gameTimeMs": 6000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.hp",
+      "metrics.best_score",
+      "metrics.primary_score"
+    ]
+  },
+  "21_02": {
+    "objective": {
+      "reach": {
+        "gameTimeMs": 10000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.hp",
+      "metrics.best_score",
+      "metrics.primary_score"
+    ]
+  },
+  "21_03": {
+    "objective": {
+      "reach": {
+        "gameTimeMs": 15000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.hp",
+      "metrics.best_score",
+      "metrics.primary_score"
+    ]
+  },
+  "21_04": {
+    "objective": {
+      "reach": {
+        "gameTimeMs": 20000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.hp",
+      "metrics.best_score",
+      "metrics.primary_score"
+    ]
+  },
+  "21_05": {
+    "objective": {
+      "reach": {
+        "gameTimeMs": 25000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.hp",
+      "metrics.best_score",
+      "metrics.primary_score"
+    ]
+  },
+  "22_01": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 1,
+          "target": 2
+        }
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.coins",
+      "metrics.primary_score",
+      "metrics.coins_total",
+      "metrics.distance_to_goal",
+      "metrics.level_number"
+    ]
+  },
+  "22_02": {
+    "objective": {
+      "reach": {
+        "game_state.coins.collected_level": 1
+      },
+      "require": {
+        "game_state.level": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "game_state.coins.remaining_level",
+      "game_state.coins.total_level",
+      "gameTimeMs",
+      "metrics.coins",
+      "metrics.primary_score",
+      "metrics.coins_total",
+      "metrics.distance_to_goal",
+      "metrics.level_number"
+    ]
+  },
+  "22_03": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 2,
+          "target": 3
+        }
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.coins",
+      "metrics.primary_score",
+      "metrics.coins_total",
+      "metrics.distance_to_goal",
+      "metrics.level_number"
+    ]
+  },
+  "22_04": {
+    "objective": {
+      "reach": {
+        "game_state.coins.collected_level": 1
+      },
+      "require": {
+        "game_state.level": 2
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "game_state.coins.remaining_level",
+      "game_state.coins.total_level",
+      "gameTimeMs",
+      "metrics.coins",
+      "metrics.primary_score",
+      "metrics.coins_total",
+      "metrics.distance_to_goal",
+      "metrics.level_number"
+    ]
+  },
+  "22_05": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 3,
+          "target": 4
+        }
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.coins",
+      "metrics.primary_score",
+      "metrics.coins_total",
+      "metrics.distance_to_goal",
+      "metrics.level_number"
+    ]
+  },
+  "23_01": {
+    "objective": {
+      "reach": {
+        "game_state.score": 600
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.primary_score",
+      "metrics.high_score",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.maze_index"
+    ]
+  },
+  "23_02": {
+    "objective": {
+      "reach": {
+        "game_state.score": 1000
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.primary_score",
+      "metrics.high_score",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.maze_index"
+    ]
+  },
+  "23_03": {
+    "objective": {
+      "reach": {
+        "game_state.score": 1500
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.primary_score",
+      "metrics.high_score",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.maze_index"
+    ]
+  },
+  "23_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 2000
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.primary_score",
+      "metrics.high_score",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.maze_index"
+    ]
+  },
+  "23_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 2500
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "gameTimeMs",
+      "metrics.primary_score",
+      "metrics.high_score",
+      "metrics.lives",
+      "metrics.deaths",
+      "metrics.maze_index"
+    ]
+  },
+  "24_01": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 1,
+          "target": 2
+        }
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.deaths",
+      "metrics.spike_hits",
+      "metrics.flap_max",
+      "metrics.flap_target"
+    ]
+  },
+  "24_02": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 2,
+          "target": 3
+        }
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.deaths",
+      "metrics.spike_hits",
+      "metrics.flap_max",
+      "metrics.flap_target"
+    ]
+  },
+  "24_03": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 3,
+          "target": 4
+        }
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.deaths",
+      "metrics.spike_hits",
+      "metrics.flap_max",
+      "metrics.flap_target"
+    ]
+  },
+  "24_04": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 4,
+          "target": 5
+        }
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.deaths",
+      "metrics.spike_hits",
+      "metrics.flap_max",
+      "metrics.flap_target"
+    ]
+  },
+  "24_05": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 5,
+          "target": 6
+        }
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "game_state.score",
+      "gameTimeMs",
+      "metrics.deaths",
+      "metrics.spike_hits",
+      "metrics.flap_max",
+      "metrics.flap_target"
+    ]
+  },
+  "25_01": {
+    "objective": {
+      "reach": {
+        "metrics.goals_for": 1
+      }
+    },
+    "metrics_fields": [
+      "metrics.goals_against",
+      "metrics.primary_score",
+      "metrics.distance_to_goal",
+      "game_state.score"
+    ]
+  },
+  "25_02": {
+    "objective": {
+      "reach": {
+        "metrics.goals_for": 2
+      }
+    },
+    "metrics_fields": [
+      "metrics.goals_against",
+      "metrics.primary_score",
+      "metrics.distance_to_goal",
+      "game_state.score"
+    ]
+  },
+  "25_03": {
+    "objective": {
+      "reach": {
+        "metrics.goals_for": 3
+      }
+    },
+    "metrics_fields": [
+      "metrics.goals_against",
+      "metrics.primary_score",
+      "metrics.distance_to_goal",
+      "game_state.score"
+    ]
+  },
+  "25_04": {
+    "objective": {
+      "reach": {
+        "metrics.goals_for": 4
+      }
+    },
+    "metrics_fields": [
+      "metrics.goals_against",
+      "metrics.primary_score",
+      "metrics.distance_to_goal",
+      "game_state.score"
+    ]
+  },
+  "25_05": {
+    "objective": {
+      "reach": {
+        "metrics.goals_for": 5
+      }
+    },
+    "metrics_fields": [
+      "metrics.goals_against",
+      "metrics.primary_score",
+      "metrics.distance_to_goal",
+      "game_state.score"
+    ]
+  },
+  "26_01": {
+    "objective": {
+      "reach": {
+        "metrics.distance": 50
+      }
+    },
+    "metrics_fields": [
+      "metrics.primary_score",
+      "game_state.level",
+      "metrics.deaths",
+      "metrics.coins",
+      "metrics.stars"
+    ]
+  },
+  "26_02": {
+    "objective": {
+      "reach": {
+        "metrics.distance": 150
+      }
+    },
+    "metrics_fields": [
+      "metrics.primary_score",
+      "game_state.level",
+      "metrics.deaths",
+      "metrics.coins",
+      "metrics.stars"
+    ]
+  },
+  "26_03": {
+    "objective": {
+      "reach": {
+        "metrics.distance": 300
+      }
+    },
+    "metrics_fields": [
+      "metrics.primary_score",
+      "game_state.level",
+      "metrics.deaths",
+      "metrics.coins",
+      "metrics.stars"
+    ]
+  },
+  "26_04": {
+    "objective": {
+      "reach": {
+        "metrics.distance": 450
+      }
+    },
+    "metrics_fields": [
+      "metrics.primary_score",
+      "game_state.level",
+      "metrics.deaths",
+      "metrics.coins",
+      "metrics.stars"
+    ]
+  },
+  "26_05": {
+    "objective": {
+      "reach": {
+        "metrics.distance": 600
+      }
+    },
+    "metrics_fields": [
+      "metrics.primary_score",
+      "game_state.level",
+      "metrics.deaths",
+      "metrics.coins",
+      "metrics.stars"
+    ]
+  },
+  "27_01": {
+    "objective": {
+      "reach": {
+        "metrics.successful_blocks": 10
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.deaths"
+    ]
+  },
+  "27_02": {
+    "objective": {
+      "reach": {
+        "metrics.successful_blocks": 15
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.deaths"
+    ]
+  },
+  "27_03": {
+    "objective": {
+      "reach": {
+        "metrics.successful_blocks": 20
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.missed_blocks",
+      "metrics.deaths"
+    ]
+  },
+  "27_04": {
+    "objective": {
+      "reach": {
+        "metrics.successful_blocks": 25
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.missed_blocks",
+      "metrics.deaths"
+    ]
+  },
+  "27_05": {
+    "objective": {
+      "reach": {
+        "metrics.successful_blocks": 30
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "metrics.missed_blocks",
+      "metrics.deaths"
+    ]
+  },
+  "28_01": {
+    "objective": {
+      "reach": {
+        "metrics.score": 2000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.distance",
+      "metrics.distance",
+      "metrics.coins",
+      "metrics.stumbles_this_run",
+      "metrics.resurrects_this_run",
+      "metrics.deaths"
+    ]
+  },
+  "28_02": {
+    "objective": {
+      "reach": {
+        "metrics.score": 4000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.distance",
+      "metrics.distance",
+      "metrics.coins",
+      "metrics.stumbles_this_run",
+      "metrics.resurrects_this_run",
+      "metrics.deaths"
+    ]
+  },
+  "28_03": {
+    "objective": {
+      "reach": {
+        "metrics.score": 6000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.distance",
+      "metrics.distance",
+      "metrics.coins",
+      "metrics.stumbles_this_run",
+      "metrics.resurrects_this_run",
+      "metrics.deaths"
+    ]
+  },
+  "28_04": {
+    "objective": {
+      "reach": {
+        "metrics.score": 8000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.distance",
+      "metrics.distance",
+      "metrics.coins",
+      "metrics.stumbles_this_run",
+      "metrics.resurrects_this_run",
+      "metrics.deaths"
+    ]
+  },
+  "28_05": {
+    "objective": {
+      "reach": {
+        "metrics.score": 10000
+      }
+    },
+    "metrics_fields": [
+      "game_state.score",
+      "game_state.distance",
+      "metrics.distance",
+      "metrics.coins",
+      "metrics.stumbles_this_run",
+      "metrics.resurrects_this_run",
+      "metrics.deaths"
+    ]
+  },
+  "29_01": {
+    "objective": {
+      "reach": {
+        "game_state.score": 200
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "metrics.lines_remaining",
+      "metrics.lines_target",
+      "metrics.topped_out",
+      "metrics.board_playable"
+    ]
+  },
+  "29_02": {
+    "objective": {
+      "reach": {
+        "game_state.score": 300
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "metrics.lines_remaining",
+      "metrics.lines_target"
+    ]
+  },
+  "29_03": {
+    "objective": {
+      "reach": {
+        "game_state.score": 500
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "metrics.lines_remaining",
+      "metrics.lines_target",
+      "metrics.topped_out",
+      "metrics.board_playable"
+    ]
+  },
+  "29_04": {
+    "objective": {
+      "reach": {
+        "game_state.score": 500
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "metrics.lines_remaining",
+      "metrics.lines_target",
+      "metrics.topped_out",
+      "metrics.board_playable"
+    ]
+  },
+  "29_05": {
+    "objective": {
+      "reach": {
+        "game_state.score": 600
+      }
+    },
+    "metrics_fields": [
+      "game_state.level",
+      "game_state.completion_progress",
+      "metrics.lines_remaining",
+      "metrics.lines_target",
+      "metrics.topped_out",
+      "metrics.board_playable"
+    ]
+  },
+  "30_01": {
+    "objective": {
+      "reach": {
+        "metrics.checkpoints_passed": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_total",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.total_levels"
+    ]
+  },
+  "30_02": {
+    "objective": {
+      "reach": {
+        "metrics.checkpoints_passed": 2
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_total",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.total_levels"
+    ]
+  },
+  "30_03": {
+    "objective": {
+      "reach": {
+        "metrics.checkpoints_passed": 3
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_total",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.total_levels"
+    ]
+  },
+  "30_04": {
+    "objective": {
+      "reach": {
+        "metrics.checkpoints_passed": 4
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_total",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.total_levels"
+    ]
+  },
+  "30_05": {
+    "objective": {
+      "reach": {
+        "metrics.checkpoints_passed": 4
+      },
+      "require": {
+        "metrics.exit_reached": true
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_total",
+      "metrics.checkpoints_required_for_exit",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.total_levels"
+    ]
+  },
+  "31_01": {
+    "objective": {
+      "reach": {
+        "metrics.kills": 2
+      }
+    },
+    "metrics_fields": [
+      "metrics.max_kills",
+      "metrics.total_monsters",
+      "metrics.health",
+      "metrics.ammo",
+      "metrics.lives"
+    ]
+  },
+  "31_02": {
+    "objective": {
+      "reach": {
+        "metrics.kills": 3
+      }
+    },
+    "metrics_fields": [
+      "metrics.max_kills",
+      "metrics.total_monsters",
+      "metrics.health",
+      "metrics.ammo",
+      "metrics.lives"
+    ]
+  },
+  "31_03": {
+    "objective": {
+      "reach": {
+        "metrics.kills": 4
+      }
+    },
+    "metrics_fields": [
+      "metrics.max_kills",
+      "metrics.total_monsters",
+      "metrics.health",
+      "metrics.ammo",
+      "metrics.lives"
+    ]
+  },
+  "31_04": {
+    "objective": {
+      "reach": {
+        "metrics.kills": 5
+      }
+    },
+    "metrics_fields": [
+      "metrics.max_kills",
+      "metrics.total_monsters",
+      "metrics.health",
+      "metrics.ammo",
+      "metrics.lives"
+    ]
+  },
+  "31_05": {
+    "objective": {
+      "reach": {
+        "metrics.kills": 6
+      }
+    },
+    "metrics_fields": [
+      "metrics.max_kills",
+      "metrics.total_monsters",
+      "metrics.health",
+      "metrics.ammo",
+      "metrics.lives"
+    ]
+  },
+  "32_01": {
+    "objective": {
+      "reach": {
+        "metrics.letters_correct": 5
+      },
+      "require": {
+        "metrics.word_number": 1
+      }
+    },
+    "metrics_fields": [
+      "metrics.attempts",
+      "game_state.completion_progress",
+      "metrics.guesses_remaining",
+      "metrics.letters_present",
+      "metrics.letters_absent"
+    ]
+  },
+  "32_02": {
+    "objective": {
+      "reach": {
+        "metrics.letters_correct": 5
+      },
+      "require": {
+        "metrics.word_number": 2
+      }
+    },
+    "metrics_fields": [
+      "metrics.attempts",
+      "game_state.completion_progress",
+      "metrics.guesses_remaining",
+      "metrics.letters_present",
+      "metrics.letters_absent"
+    ]
+  },
+  "32_03": {
+    "objective": {
+      "reach": {
+        "metrics.letters_correct": 5
+      },
+      "require": {
+        "metrics.word_number": 3
+      }
+    },
+    "metrics_fields": [
+      "metrics.attempts",
+      "game_state.completion_progress",
+      "metrics.guesses_remaining",
+      "metrics.letters_present",
+      "metrics.letters_absent"
+    ]
+  },
+  "32_04": {
+    "objective": {
+      "reach": {
+        "metrics.letters_correct": 5
+      },
+      "require": {
+        "metrics.word_number": 4
+      }
+    },
+    "metrics_fields": [
+      "metrics.attempts",
+      "game_state.completion_progress",
+      "metrics.guesses_remaining",
+      "metrics.letters_present",
+      "metrics.letters_absent"
+    ]
+  },
+  "32_05": {
+    "objective": {
+      "reach": {
+        "metrics.letters_correct": 5
+      },
+      "require": {
+        "metrics.word_number": 5
+      }
+    },
+    "metrics_fields": [
+      "metrics.attempts",
+      "game_state.completion_progress",
+      "metrics.guesses_remaining",
+      "metrics.letters_present",
+      "metrics.letters_absent"
+    ]
+  },
+  "33_01": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 1,
+          "target": 2
+        },
+        "metrics.levels_completed_this_episode": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.coins",
+      "metrics.coins_total",
+      "metrics.checkpoints_passed",
+      "metrics.checkpoints_total",
+      "metrics.deaths"
+    ]
+  },
+  "33_02": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 2,
+          "target": 3
+        },
+        "metrics.levels_completed_this_episode": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.coins",
+      "metrics.coins_total",
+      "metrics.checkpoints_passed",
+      "metrics.checkpoints_total",
+      "metrics.deaths"
+    ]
+  },
+  "33_03": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 3,
+          "target": 4
+        },
+        "metrics.levels_completed_this_episode": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.coins",
+      "metrics.coins_total",
+      "metrics.checkpoints_passed",
+      "metrics.checkpoints_total",
+      "metrics.deaths",
+      "metrics.deaths_this_episode",
+      "metrics.uninterrupted"
+    ]
+  },
+  "33_04": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 4,
+          "target": 5
+        },
+        "metrics.levels_completed_this_episode": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.coins",
+      "metrics.coins_total",
+      "metrics.checkpoints_passed",
+      "metrics.checkpoints_total",
+      "metrics.deaths",
+      "metrics.deaths_this_episode",
+      "metrics.uninterrupted"
+    ]
+  },
+  "33_05": {
+    "objective": {
+      "reach": {
+        "game_state.level": {
+          "start": 5,
+          "target": 6
+        },
+        "metrics.levels_completed_this_episode": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.coins",
+      "metrics.coins_total",
+      "metrics.checkpoints_passed",
+      "metrics.checkpoints_total",
+      "metrics.deaths",
+      "metrics.deaths_this_episode",
+      "metrics.uninterrupted"
+    ]
+  },
+  "34_01": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 1
+      },
+      "require": {
+        "game_state.level": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_passed",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.player_alive"
+    ]
+  },
+  "34_02": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 2
+      },
+      "require": {
+        "game_state.level": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_passed",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.player_alive"
+    ]
+  },
+  "34_03": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 3
+      },
+      "require": {
+        "game_state.level": 1
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_passed",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.player_alive"
+    ]
+  },
+  "34_04": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 1
+      },
+      "require": {
+        "game_state.level": 2
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_passed",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.player_alive"
+    ]
+  },
+  "34_05": {
+    "objective": {
+      "reach": {
+        "metrics.coins": 2
+      },
+      "require": {
+        "game_state.level": 2
+      }
+    },
+    "metrics_fields": [
+      "game_state.completion_progress",
+      "metrics.checkpoints_passed",
+      "metrics.deaths",
+      "metrics.distance_to_goal",
+      "metrics.player_alive"
+    ]
+  }
+}

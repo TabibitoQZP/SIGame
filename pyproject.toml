@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sigame"
+version = "0.1.0"
+description = "Unpaused RGB game execution for RTC and iterative code policies"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "httpx>=0.28,<0.29", "requests>=2.32,<3", "numpy>=2,<3",
+  "pillow>=12,<13", "opencv-python-headless>=4.11,<5",
+  "playwright>=1.62,<1.63",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=9,<10", "ruff>=0.12", "build>=1.2,<2"]
+
+[project.scripts]
+rgbgame = "gpa.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gpa"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src/", "/tests/", "/configs/", "/docker/", "/examples/", "/tools/",
+           "/pyproject.toml", "/uv.lock", "/README.md", "/.env.example", "/.dockerignore"]
+exclude = ["/outputs/", "/dist/", "**/__pycache__/", "**/*.pyc"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["docker: requires the configured Docker daemon and resource slice"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+exclude = ["src/gpa/vendor", "src/gpa/tasks/upstream_evaluator.py"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

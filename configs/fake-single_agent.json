@@ -1,0 +1,19 @@
+{
+  "method": "single_agent",
+  "backend": "fake",
+  "fake": true,
+  "task": "Move the red square using left/right. Synthetic interface test only.",
+  "game_seconds": 2,
+  "initial_seconds": 1,
+  "response_floor_ms": 200,
+  "developer_output_tokens": 4096,
+  "branch_output_tokens": 4096,
+  "development_rounds": 2,
+  "branch_submissions": 2,
+  "midpoint_submit": 1,
+  "review_output_tokens": 512,
+  "development_timeout_seconds": 60,
+  "phase_wait_timeout_seconds": 60,
+  "team_timeout_seconds": 150,
+  "request_timeout_seconds": 10
+}

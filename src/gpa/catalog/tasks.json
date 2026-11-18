@@ -1,0 +1,1192 @@
+[
+  {
+    "task_id": "01_01",
+    "game_id": "01_2048",
+    "game_url_suffix": "",
+    "task": "Merge efficiently and build up to a tile value of at least 32.\n\n\nRules:\nYou are playing 2048, a sliding tile puzzle game.\n\n## Game Objective\n- Combine matching tiles to create higher values.\n\n## Game Rules\n- All tiles slide in the direction you press.\n- When two tiles with the same number collide, they merge into one tile with doubled value.\n- After each valid move (any tile is moved), a new tile of 2 or 4 appears in a random empty cell.\n- Game ends when no more moves are possible (board is full and no merges available).\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing.\n- up: Slide all tiles up\n- down: Slide all tiles down\n- left: Slide all tiles left\n- right: Slide all tiles right",
+    "source_task_sha256": "7087a3d36c526264be559202974d24feac2053dc8d3db7553e0091cebf89c0f2"
+  },
+  {
+    "task_id": "01_02",
+    "game_id": "01_2048",
+    "game_url_suffix": "",
+    "task": "Combine tiles with minimal board clutter and reach value 64 or higher.\n\n\nRules:\nYou are playing 2048, a sliding tile puzzle game.\n\n## Game Objective\n- Combine matching tiles to create higher values.\n\n## Game Rules\n- All tiles slide in the direction you press.\n- When two tiles with the same number collide, they merge into one tile with doubled value.\n- After each valid move (any tile is moved), a new tile of 2 or 4 appears in a random empty cell.\n- Game ends when no more moves are possible (board is full and no merges available).\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing.\n- up: Slide all tiles up\n- down: Slide all tiles down\n- left: Slide all tiles left\n- right: Slide all tiles right",
+    "source_task_sha256": "49672e05552be6da7cd5a142af236ee5c18537e9c9285aace33fb5529bde1fbc"
+  },
+  {
+    "task_id": "01_03",
+    "game_id": "01_2048",
+    "game_url_suffix": "",
+    "task": "Preserve merge lanes and reach a tile value of at least 128.\n\n\nRules:\nYou are playing 2048, a sliding tile puzzle game.\n\n## Game Objective\n- Combine matching tiles to create higher values.\n\n## Game Rules\n- All tiles slide in the direction you press.\n- When two tiles with the same number collide, they merge into one tile with doubled value.\n- After each valid move (any tile is moved), a new tile of 2 or 4 appears in a random empty cell.\n- Game ends when no more moves are possible (board is full and no merges available).\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing.\n- up: Slide all tiles up\n- down: Slide all tiles down\n- left: Slide all tiles left\n- right: Slide all tiles right",
+    "source_task_sha256": "38eff5497b6f7c1374bf4ab0c9b35985aab3f4430511a027cc1aa970a9e13a6d"
+  },
+  {
+    "task_id": "01_04",
+    "game_id": "01_2048",
+    "game_url_suffix": "",
+    "task": "Merge steadily and push total score to at least 512.\n\n\nRules:\nYou are playing 2048, a sliding tile puzzle game.\n\n## Game Objective\n- Combine matching tiles to create higher values.\n\n## Game Rules\n- All tiles slide in the direction you press.\n- When two tiles with the same number collide, they merge into one tile with doubled value.\n- After each valid move (any tile is moved), a new tile of 2 or 4 appears in a random empty cell.\n- Game ends when no more moves are possible (board is full and no merges available).\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing.\n- up: Slide all tiles up\n- down: Slide all tiles down\n- left: Slide all tiles left\n- right: Slide all tiles right",
+    "source_task_sha256": "5eb856eed69780190427e42bd1076ce985d47b9a1fd9b60c61b5a5e34e89f784"
+  },
+  {
+    "task_id": "01_05",
+    "game_id": "01_2048",
+    "game_url_suffix": "",
+    "task": "Merge steadily and push total score to at least 1024.\n\n\nRules:\nYou are playing 2048, a sliding tile puzzle game.\n\n## Game Objective\n- Combine matching tiles to create higher values.\n\n## Game Rules\n- All tiles slide in the direction you press.\n- When two tiles with the same number collide, they merge into one tile with doubled value.\n- After each valid move (any tile is moved), a new tile of 2 or 4 appears in a random empty cell.\n- Game ends when no more moves are possible (board is full and no merges available).\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing.\n- up: Slide all tiles up\n- down: Slide all tiles down\n- left: Slide all tiles left\n- right: Slide all tiles right",
+    "source_task_sha256": "76b2972d70acccebd6fa0c6d1677082c80b65315f4d8975d74e21c55ade202cf"
+  },
+  {
+    "task_id": "02_01",
+    "game_id": "02_another-gentlemans-adventure",
+    "game_url_suffix": "",
+    "task": "Collect at least 1 coin in this level.\n\n\nRules:\nYou are playing Another Gentleman's Adventure, a platformer game.\n\n## Game Objective\n- Navigate through levels, avoiding obstacles and enemies to get coins.\n\n## Game Rules\n- Move left and right to navigate platforms.\n- Jump (left or right) to avoid obstacles and reach higher platforms.\n- Jump from below to hit the Golden Question Blocks and reveal items.\n- Jumping on enemies kills them.\n\n\nCharacter: player\nGame controls:\n- Wait: Stay still.\n- Arrow Left/Right: Move horizontally\n- Arrow Up: Jump\n- Arrow Left/Right + Arrow Up (key combination): Jump while moving left/rights",
+    "source_task_sha256": "2bc13edba84621f05cfeaf916d4fdd7bccf89947940e76e3c1209aa18b076655"
+  },
+  {
+    "task_id": "02_02",
+    "game_id": "02_another-gentlemans-adventure",
+    "game_url_suffix": "",
+    "task": "Collect at least 2 coins while staying safe.\n\n\nRules:\nYou are playing Another Gentleman's Adventure, a platformer game.\n\n## Game Objective\n- Navigate through levels, avoiding obstacles and enemies to get coins.\n\n## Game Rules\n- Move left and right to navigate platforms.\n- Jump (left or right) to avoid obstacles and reach higher platforms.\n- Jump from below to hit the Golden Question Blocks and reveal items.\n- Jumping on enemies kills them.\n\n\nCharacter: player\nGame controls:\n- Wait: Stay still.\n- Arrow Left/Right: Move horizontally\n- Arrow Up: Jump\n- Arrow Left/Right + Arrow Up (key combination): Jump while moving left/rights",
+    "source_task_sha256": "b5ac05fa56eaf8a1a1f9c7afbd02d17d0e0b58dca89c8820a1d3fe464cc8cca7"
+  },
+  {
+    "task_id": "02_03",
+    "game_id": "02_another-gentlemans-adventure",
+    "game_url_suffix": "",
+    "task": "Pick up at least 3 coins before the run ends.\n\n\nRules:\nYou are playing Another Gentleman's Adventure, a platformer game.\n\n## Game Objective\n- Navigate through levels, avoiding obstacles and enemies to get coins.\n\n## Game Rules\n- Move left and right to navigate platforms.\n- Jump (left or right) to avoid obstacles and reach higher platforms.\n- Jump from below to hit the Golden Question Blocks and reveal items.\n- Jumping on enemies kills them.\n\n\nCharacter: player\nGame controls:\n- Wait: Stay still.\n- Arrow Left/Right: Move horizontally\n- Arrow Up: Jump\n- Arrow Left/Right + Arrow Up (key combination): Jump while moving left/rights",
+    "source_task_sha256": "1bb4f83f8a8cac622d5313766350d6ecd77511fd24a4347b333c77173f457fa8"
+  },
+  {
+    "task_id": "02_04",
+    "game_id": "02_another-gentlemans-adventure",
+    "game_url_suffix": "",
+    "task": "Gather at least 4 coins in the current level.\n\n\nRules:\nYou are playing Another Gentleman's Adventure, a platformer game.\n\n## Game Objective\n- Navigate through levels, avoiding obstacles and enemies to get coins.\n\n## Game Rules\n- Move left and right to navigate platforms.\n- Jump (left or right) to avoid obstacles and reach higher platforms.\n- Jump from below to hit the Golden Question Blocks and reveal items.\n- Jumping on enemies kills them.\n\n\nCharacter: player\nGame controls:\n- Wait: Stay still.\n- Arrow Left/Right: Move horizontally\n- Arrow Up: Jump\n- Arrow Left/Right + Arrow Up (key combination): Jump while moving left/rights",
+    "source_task_sha256": "f8343187c125e15993818e5023c768d145043b388b09081fe21979bd80c1db3a"
+  },
+  {
+    "task_id": "02_05",
+    "game_id": "02_another-gentlemans-adventure",
+    "game_url_suffix": "",
+    "task": "Secure at least 5 coins in this level.\n\n\nRules:\nYou are playing Another Gentleman's Adventure, a platformer game.\n\n## Game Objective\n- Navigate through levels, avoiding obstacles and enemies to get coins.\n\n## Game Rules\n- Move left and right to navigate platforms.\n- Jump (left or right) to avoid obstacles and reach higher platforms.\n- Jump from below to hit the Golden Question Blocks and reveal items.\n- Jumping on enemies kills them.\n\n\nCharacter: player\nGame controls:\n- Wait: Stay still.\n- Arrow Left/Right: Move horizontally\n- Arrow Up: Jump\n- Arrow Left/Right + Arrow Up (key combination): Jump while moving left/rights",
+    "source_task_sha256": "0b9999c64b661dfa628c2046b37302774e072faed283bdbf32ff083695c2e0bf"
+  },
+  {
+    "task_id": "03_01",
+    "game_id": "03_astray",
+    "game_url_suffix": "?level=1",
+    "task": "Finish maze level 1 by finding the exit.\n\n\nRules:\nYou are playing Astray, a maze navigation game.\n\n## Game Objective\n- Navigate the ball through the maze to reach the exit.\n\n## Game Rules\n- Navigate through the maze carefully to find the path to the exit.\n- The exit is typically at the right-top far corner of the maze.\n\n\nCharacter: player\nGame controls:\n- Wait: Wait briefly without moving\n- up: Move the ball up\n- down: Move the ball down\n- left: Move the ball left\n- right: Move the ball right",
+    "source_task_sha256": "3833b3edea92d910f1620d1eb2688948e333e2e90bdeb426618d6e265b4841dd"
+  },
+  {
+    "task_id": "03_02",
+    "game_id": "03_astray",
+    "game_url_suffix": "?level=2",
+    "task": "Finish maze level 2 by reaching the exit point.\n\n\nRules:\nYou are playing Astray, a maze navigation game.\n\n## Game Objective\n- Navigate the ball through the maze to reach the exit.\n\n## Game Rules\n- Navigate through the maze carefully to find the path to the exit.\n- The exit is typically at the right-top far corner of the maze.\n\n\nCharacter: player\nGame controls:\n- Wait: Wait briefly without moving\n- up: Move the ball up\n- down: Move the ball down\n- left: Move the ball left\n- right: Move the ball right",
+    "source_task_sha256": "18b8704b01bfda49e5ce35852b27d17f7f414e90974262030edf2e47d7a6a022"
+  },
+  {
+    "task_id": "03_03",
+    "game_id": "03_astray",
+    "game_url_suffix": "?level=3",
+    "task": "Clear maze level 3 and reach the exit.\n\n\nRules:\nYou are playing Astray, a maze navigation game.\n\n## Game Objective\n- Navigate the ball through the maze to reach the exit.\n\n## Game Rules\n- Navigate through the maze carefully to find the path to the exit.\n- The exit is typically at the right-top far corner of the maze.\n\n\nCharacter: player\nGame controls:\n- Wait: Wait briefly without moving\n- up: Move the ball up\n- down: Move the ball down\n- left: Move the ball left\n- right: Move the ball right",
+    "source_task_sha256": "2bcb279663decb3f469541120661c125c95cf9bc3787d32c6a57d64f80a02df9"
+  },
+  {
+    "task_id": "03_04",
+    "game_id": "03_astray",
+    "game_url_suffix": "?level=4",
+    "task": "Navigate maze level 4 and arrive at the exit.\n\n\nRules:\nYou are playing Astray, a maze navigation game.\n\n## Game Objective\n- Navigate the ball through the maze to reach the exit.\n\n## Game Rules\n- Navigate through the maze carefully to find the path to the exit.\n- The exit is typically at the right-top far corner of the maze.\n\n\nCharacter: player\nGame controls:\n- Wait: Wait briefly without moving\n- up: Move the ball up\n- down: Move the ball down\n- left: Move the ball left\n- right: Move the ball right",
+    "source_task_sha256": "ae5c30dca6a7006bbc84959dde9b3893c9834e6a22dc9420a63ba3ad4028a2cc"
+  },
+  {
+    "task_id": "03_05",
+    "game_id": "03_astray",
+    "game_url_suffix": "?level=5",
+    "task": "Complete maze level 5 by reaching the goal exit.\n\n\nRules:\nYou are playing Astray, a maze navigation game.\n\n## Game Objective\n- Navigate the ball through the maze to reach the exit.\n\n## Game Rules\n- Navigate through the maze carefully to find the path to the exit.\n- The exit is typically at the right-top far corner of the maze.\n\n\nCharacter: player\nGame controls:\n- Wait: Wait briefly without moving\n- up: Move the ball up\n- down: Move the ball down\n- left: Move the ball left\n- right: Move the ball right",
+    "source_task_sha256": "09c8fc48b63f51db7da8c19e26a40fd2f8e0a1c603e593e501ca33ba4870721c"
+  },
+  {
+    "task_id": "04_01",
+    "game_id": "04_boxel-rebound",
+    "game_url_suffix": "?level=1",
+    "task": "Reach at least 50% level progress in this stage.\n\n\nRules:\nYou are playing Boxel Rebound, a precision platformer.\n\n## Game Objective\n-  Time your jumps to navigate through each level to reach the end without dying.\n- Your character automatically moves forward continuously.\n\n## Game Rules\n- You can only jump - no left/right movement control.\n- Avoid spikes and falling into pits.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to continue movement.\n- space or up: Jump",
+    "source_task_sha256": "d7058542c3ddef5b6c8a8ef7d0fffac6f349e63b338bc9cac4c0dd73a0b4f7cb"
+  },
+  {
+    "task_id": "04_02",
+    "game_id": "04_boxel-rebound",
+    "game_url_suffix": "?level=1",
+    "task": "Complete the stage with 100% level progress.\n\n\nRules:\nYou are playing Boxel Rebound, a precision platformer.\n\n## Game Objective\n-  Time your jumps to navigate through each level to reach the end without dying.\n- Your character automatically moves forward continuously.\n\n## Game Rules\n- You can only jump - no left/right movement control.\n- Avoid spikes and falling into pits.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to continue movement.\n- space or up: Jump",
+    "source_task_sha256": "c8e2856763fb0742e2c662754ca03f3939d323e64414912bcff05476b504f995"
+  },
+  {
+    "task_id": "04_03",
+    "game_id": "04_boxel-rebound",
+    "game_url_suffix": "?level=2",
+    "task": "Achieve at least 50% progress in this stage.\n\n\nRules:\nYou are playing Boxel Rebound, a precision platformer.\n\n## Game Objective\n-  Time your jumps to navigate through each level to reach the end without dying.\n- Your character automatically moves forward continuously.\n\n## Game Rules\n- You can only jump - no left/right movement control.\n- Avoid spikes and falling into pits.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to continue movement.\n- space or up: Jump",
+    "source_task_sha256": "b4585849c2f63de9d3c039067e6a47fe264c5bd5f34609829a16a626da06ba26"
+  },
+  {
+    "task_id": "04_04",
+    "game_id": "04_boxel-rebound",
+    "game_url_suffix": "?level=2",
+    "task": "Finish the stage to 100% progress.\n\n\nRules:\nYou are playing Boxel Rebound, a precision platformer.\n\n## Game Objective\n-  Time your jumps to navigate through each level to reach the end without dying.\n- Your character automatically moves forward continuously.\n\n## Game Rules\n- You can only jump - no left/right movement control.\n- Avoid spikes and falling into pits.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to continue movement.\n- space or up: Jump",
+    "source_task_sha256": "bff22ff294ec34329008fc6578d86c3924581b1172159e532cf3d4b718307387"
+  },
+  {
+    "task_id": "04_05",
+    "game_id": "04_boxel-rebound",
+    "game_url_suffix": "?level=3",
+    "task": "Reach full completion (100% progress) for this level.\n\n\nRules:\nYou are playing Boxel Rebound, a precision platformer.\n\n## Game Objective\n-  Time your jumps to navigate through each level to reach the end without dying.\n- Your character automatically moves forward continuously.\n\n## Game Rules\n- You can only jump - no left/right movement control.\n- Avoid spikes and falling into pits.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to continue movement.\n- space or up: Jump",
+    "source_task_sha256": "a575880da8060a399d6e9c3d02c29a427221d3697dc44741b479f43852b06ae6"
+  },
+  {
+    "task_id": "05_01",
+    "game_id": "05_breakout",
+    "game_url_suffix": "?level=1",
+    "task": "Clear the board to reach 100% progress in this level.\n\n\nRules:\nYou are playing Breakout, a classic brick-breaking game.\n\n## Game Objective\n- Break all the bricks to complete each level. Each brick broken adds to your score.\n\n## Game Rules\n- Use the paddle to bounce the ball upward.\n- Break bricks by hitting them with the ball.\n- Don't let the ball fall past the paddle.\n\n\nCharacter: player\nGame controls:\n- Wait briefly for fine timing, or longer while the ball is safely away from the paddle.\n- Hold Arrow Left/Right briefly for a small correction, or longer for a large adjustment.",
+    "source_task_sha256": "d39aee6faceb5bdac504b68852db797380a2476d8907266591e1d39a0c537040"
+  },
+  {
+    "task_id": "05_02",
+    "game_id": "05_breakout",
+    "game_url_suffix": "?level=2",
+    "task": "Complete this stage by removing all bricks.\n\n\nRules:\nYou are playing Breakout, a classic brick-breaking game.\n\n## Game Objective\n- Break all the bricks to complete each level. Each brick broken adds to your score.\n\n## Game Rules\n- Use the paddle to bounce the ball upward.\n- Break bricks by hitting them with the ball.\n- Don't let the ball fall past the paddle.\n\n\nCharacter: player\nGame controls:\n- Wait briefly for fine timing, or longer while the ball is safely away from the paddle.\n- Hold Arrow Left/Right briefly for a small correction, or longer for a large adjustment.",
+    "source_task_sha256": "46c731c9302378127c44c6edb8a2b5481920d0fb2d6d0477536d11300d4904c9"
+  },
+  {
+    "task_id": "05_03",
+    "game_id": "05_breakout",
+    "game_url_suffix": "?level=3",
+    "task": "Break every brick in this stage to finish it.\n\n\nRules:\nYou are playing Breakout, a classic brick-breaking game.\n\n## Game Objective\n- Break all the bricks to complete each level. Each brick broken adds to your score.\n\n## Game Rules\n- Use the paddle to bounce the ball upward.\n- Break bricks by hitting them with the ball.\n- Don't let the ball fall past the paddle.\n\n\nCharacter: player\nGame controls:\n- Wait briefly for fine timing, or longer while the ball is safely away from the paddle.\n- Hold Arrow Left/Right briefly for a small correction, or longer for a large adjustment.",
+    "source_task_sha256": "51f6c6150416e7319cf144fc9cd2363a9dbbea13b4e2ed4e3d46c456dba48b9a"
+  },
+  {
+    "task_id": "05_04",
+    "game_id": "05_breakout",
+    "game_url_suffix": "?level=4",
+    "task": "Win this round by clearing every remaining block.\n\n\nRules:\nYou are playing Breakout, a classic brick-breaking game.\n\n## Game Objective\n- Break all the bricks to complete each level. Each brick broken adds to your score.\n\n## Game Rules\n- Use the paddle to bounce the ball upward.\n- Break bricks by hitting them with the ball.\n- Don't let the ball fall past the paddle.\n\n\nCharacter: player\nGame controls:\n- Wait briefly for fine timing, or longer while the ball is safely away from the paddle.\n- Hold Arrow Left/Right briefly for a small correction, or longer for a large adjustment.",
+    "source_task_sha256": "52756a590706e964ce088c16352445e206a22945dcc1ca3872bd0224e3ac0dd2"
+  },
+  {
+    "task_id": "05_05",
+    "game_id": "05_breakout",
+    "game_url_suffix": "?level=5",
+    "task": "Finish the level by eliminating all bricks on screen.\n\n\nRules:\nYou are playing Breakout, a classic brick-breaking game.\n\n## Game Objective\n- Break all the bricks to complete each level. Each brick broken adds to your score.\n\n## Game Rules\n- Use the paddle to bounce the ball upward.\n- Break bricks by hitting them with the ball.\n- Don't let the ball fall past the paddle.\n\n\nCharacter: player\nGame controls:\n- Wait briefly for fine timing, or longer while the ball is safely away from the paddle.\n- Hold Arrow Left/Right briefly for a small correction, or longer for a large adjustment.",
+    "source_task_sha256": "2e38964ed873d4282c9685de5efca7d0406900288e3f9be94bcf47bac576c48c"
+  },
+  {
+    "task_id": "06_01",
+    "game_id": "06_captaincallisto",
+    "game_url_suffix": "?level=1",
+    "task": "Collect at least 6 coins and stay alive.\n\n\nRules:\nYou are playing Captain Callisto, a platform adventure.\n\n## Game Objective\n- Reach the exit of each area.\n- Collect coins along the way.\n\n## Game Rules\n- Move left/right/up/down and jump across platforms.\n- Use the jetpack to fly up after you collected the fuels.\n- Kill the enemies by jumping on them.\n- When you touch the enemies (not from above) or falling, you will respawn.\n- You need a move to start the level after respawning.\n\n\nCharacter: explorer\nGame controls:\n- Wait: Do nothing.\n- left / right or A/D: move left/right\n- up / down or W/S: climb or move vertically\n- space: jump\n- Shift: jetpack\n- r: restart",
+    "source_task_sha256": "6e5562dd30c485ff60d811e9db2f79f2b729330b54f34a123ef04742d9647dbf"
+  },
+  {
+    "task_id": "06_02",
+    "game_id": "06_captaincallisto",
+    "game_url_suffix": "?level=2",
+    "task": "Collect every coin available in this level.\n\n\nRules:\nYou are playing Captain Callisto, a platform adventure.\n\n## Game Objective\n- Reach the exit of each area.\n- Collect coins along the way.\n\n## Game Rules\n- Move left/right/up/down and jump across platforms.\n- Use the jetpack to fly up after you collected the fuels.\n- Kill the enemies by jumping on them.\n- When you touch the enemies (not from above) or falling, you will respawn.\n- You need a move to start the level after respawning.\n\n\nCharacter: explorer\nGame controls:\n- Wait: Do nothing.\n- left / right or A/D: move left/right\n- up / down or W/S: climb or move vertically\n- space: jump\n- Shift: jetpack\n- r: restart",
+    "source_task_sha256": "f5f6fb61a1bc05a165973be63130a3d78f9f82293bcc0685b9106d1267fc63fc"
+  },
+  {
+    "task_id": "06_03",
+    "game_id": "06_captaincallisto",
+    "game_url_suffix": "?level=3",
+    "task": "Pick up all 7 coins in a single run.\n\n\nRules:\nYou are playing Captain Callisto, a platform adventure.\n\n## Game Objective\n- Reach the exit of each area.\n- Collect coins along the way.\n\n## Game Rules\n- Move left/right/up/down and jump across platforms.\n- Use the jetpack to fly up after you collected the fuels.\n- Kill the enemies by jumping on them.\n- When you touch the enemies (not from above) or falling, you will respawn.\n- You need a move to start the level after respawning.\n\n\nCharacter: explorer\nGame controls:\n- Wait: Do nothing.\n- left / right or A/D: move left/right\n- up / down or W/S: climb or move vertically\n- space: jump\n- Shift: jetpack\n- r: restart",
+    "source_task_sha256": "1dc97bf053203ea832141f92492fe78676ef0693ad77494b9112b0d16d3bc41e"
+  },
+  {
+    "task_id": "06_04",
+    "game_id": "06_captaincallisto",
+    "game_url_suffix": "?level=4",
+    "task": "Gather all 15 coins in this level.\n\n\nRules:\nYou are playing Captain Callisto, a platform adventure.\n\n## Game Objective\n- Reach the exit of each area.\n- Collect coins along the way.\n\n## Game Rules\n- Move left/right/up/down and jump across platforms.\n- Use the jetpack to fly up after you collected the fuels.\n- Kill the enemies by jumping on them.\n- When you touch the enemies (not from above) or falling, you will respawn.\n- You need a move to start the level after respawning.\n\n\nCharacter: explorer\nGame controls:\n- Wait: Do nothing.\n- left / right or A/D: move left/right\n- up / down or W/S: climb or move vertically\n- space: jump\n- Shift: jetpack\n- r: restart",
+    "source_task_sha256": "e5a3086f185f3504807439e11c971d6e3c7eac48c6da9fbf7fc8a1e3fbc94cc7"
+  },
+  {
+    "task_id": "06_05",
+    "game_id": "06_captaincallisto",
+    "game_url_suffix": "?level=5",
+    "task": "Collect all 12 coins in level 5.\n\n\nRules:\nYou are playing Captain Callisto, a platform adventure.\n\n## Game Objective\n- Reach the exit of each area.\n- Collect coins along the way.\n\n## Game Rules\n- Move left/right/up/down and jump across platforms.\n- Use the jetpack to fly up after you collected the fuels.\n- Kill the enemies by jumping on them.\n- When you touch the enemies (not from above) or falling, you will respawn.\n- You need a move to start the level after respawning.\n\n\nCharacter: explorer\nGame controls:\n- Wait: Do nothing.\n- left / right or A/D: move left/right\n- up / down or W/S: climb or move vertically\n- space: jump\n- Shift: jetpack\n- r: restart",
+    "source_task_sha256": "e50661c3f79b312485e885efbac1912ec2c62fb3c4598b3fc9f4242ec6d624aa"
+  },
+  {
+    "task_id": "07_01",
+    "game_id": "07_chrome-dino",
+    "game_url_suffix": "",
+    "task": "Stay alive and reach a score of at least 100.\n\n\nRules:\nYou are playing the Chrome Dino runner game. Jump to start the run.\n\n## Game Objective\n- Survive as long as possible while the dino runs.\n- Avoid obstacles to keep the run going and increase score.\n\n\nCharacter: runner\nGame controls:\n- Wait: Do nothing to keep the run going.\n- space/up: Jump or start the run.\n- down: Duck or descend faster.",
+    "source_task_sha256": "38ff0baf58c4617a2656ec1bc3df4c9d64b0bd0885289bc1390a9db860bab570"
+  },
+  {
+    "task_id": "07_02",
+    "game_id": "07_chrome-dino",
+    "game_url_suffix": "",
+    "task": "Survive long enough to score at least 200.\n\n\nRules:\nYou are playing the Chrome Dino runner game. Jump to start the run.\n\n## Game Objective\n- Survive as long as possible while the dino runs.\n- Avoid obstacles to keep the run going and increase score.\n\n\nCharacter: runner\nGame controls:\n- Wait: Do nothing to keep the run going.\n- space/up: Jump or start the run.\n- down: Duck or descend faster.",
+    "source_task_sha256": "b722219102fade840a73c1492867c2952803d63e5c920f8f930df1ef03abcd16"
+  },
+  {
+    "task_id": "07_03",
+    "game_id": "07_chrome-dino",
+    "game_url_suffix": "",
+    "task": "In one run, survive to at least 400 score.\n\n\nRules:\nYou are playing the Chrome Dino runner game. Jump to start the run.\n\n## Game Objective\n- Survive as long as possible while the dino runs.\n- Avoid obstacles to keep the run going and increase score.\n\n\nCharacter: runner\nGame controls:\n- Wait: Do nothing to keep the run going.\n- space/up: Jump or start the run.\n- down: Duck or descend faster.",
+    "source_task_sha256": "652e5f54716fecf9235a15316cfc2138b60af65fc50eb2ffbb66417f4215f15b"
+  },
+  {
+    "task_id": "07_04",
+    "game_id": "07_chrome-dino",
+    "game_url_suffix": "",
+    "task": "Survive and reach a score of at least 600.\n\n\nRules:\nYou are playing the Chrome Dino runner game. Jump to start the run.\n\n## Game Objective\n- Survive as long as possible while the dino runs.\n- Avoid obstacles to keep the run going and increase score.\n\n\nCharacter: runner\nGame controls:\n- Wait: Do nothing to keep the run going.\n- space/up: Jump or start the run.\n- down: Duck or descend faster.",
+    "source_task_sha256": "79e46e8877ed575e2cb9a89a0099a280327541b73c8ba2a847da92f0936828b7"
+  },
+  {
+    "task_id": "07_05",
+    "game_id": "07_chrome-dino",
+    "game_url_suffix": "",
+    "task": "Keep the run alive and reach a score of at least 800.\n\n\nRules:\nYou are playing the Chrome Dino runner game. Jump to start the run.\n\n## Game Objective\n- Survive as long as possible while the dino runs.\n- Avoid obstacles to keep the run going and increase score.\n\n\nCharacter: runner\nGame controls:\n- Wait: Do nothing to keep the run going.\n- space/up: Jump or start the run.\n- down: Duck or descend faster.",
+    "source_task_sha256": "d8a75fb90dfd08f28cf86d60353cf344347202d985c312580fd054f5087342cd"
+  },
+  {
+    "task_id": "08_01",
+    "game_id": "08_core-ball",
+    "game_url_suffix": "?level=1",
+    "task": "Clear level 1 without collisions.\nShoot each ball into a free gap and complete every required attach sequence.\n\n\nRules:\nYou are playing Core Ball, a high-speed 2D timing-and-precision game.\nShoot numbered balls into a rotating core and attach them to it without collisions.\n\n## Game Objective\n- Attach all balls for the current level to the core.\n- Complete the level before the queue is exhausted and the core becomes too crowded.\n- Levels get faster and denser as you progress.\n\n## Game Rules\n- Press space to shoot one ball toward the center.\n- A ball collision with another ball fails the run immediately.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the core to rotate\n- space: shoot one ball",
+    "source_task_sha256": "96a65df5ac8ed2d05ed63a4ac3e41e445e16be6c607c7e0080d1fa4bad7eacdf"
+  },
+  {
+    "task_id": "08_02",
+    "game_id": "08_core-ball",
+    "game_url_suffix": "?level=2",
+    "task": "Clear level 2 using tight timing and careful aiming.\nOne bad collision means restart; finish the whole level sequence cleanly.\n\n\nRules:\nYou are playing Core Ball, a high-speed 2D timing-and-precision game.\nShoot numbered balls into a rotating core and attach them to it without collisions.\n\n## Game Objective\n- Attach all balls for the current level to the core.\n- Complete the level before the queue is exhausted and the core becomes too crowded.\n- Levels get faster and denser as you progress.\n\n## Game Rules\n- Press space to shoot one ball toward the center.\n- A ball collision with another ball fails the run immediately.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the core to rotate\n- space: shoot one ball",
+    "source_task_sha256": "299952ad9120f99d5c0e1f9fb7001f403407b61d50423953afca950e6ce354cc"
+  },
+  {
+    "task_id": "08_03",
+    "game_id": "08_core-ball",
+    "game_url_suffix": "?level=3",
+    "task": "Clear level 3 with 20 points.\nKeep shots synchronized with the spinning core and avoid touching any existing ball, segment, or obstacle.\n\n\nRules:\nYou are playing Core Ball, a high-speed 2D timing-and-precision game.\nShoot numbered balls into a rotating core and attach them to it without collisions.\n\n## Game Objective\n- Attach all balls for the current level to the core.\n- Complete the level before the queue is exhausted and the core becomes too crowded.\n- Levels get faster and denser as you progress.\n\n## Game Rules\n- Press space to shoot one ball toward the center.\n- A ball collision with another ball fails the run immediately.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the core to rotate\n- space: shoot one ball",
+    "source_task_sha256": "fad9369c59b8cfa4f3d80d807cccc045f3e052c44b8481a4119fe26e9d63bd9b"
+  },
+  {
+    "task_id": "08_04",
+    "game_id": "08_core-ball",
+    "game_url_suffix": "?level=4",
+    "task": "Clear level 4 under faster rotation.\nTime every launch to thread the ball through moving gaps and survive the level.\n\n\nRules:\nYou are playing Core Ball, a high-speed 2D timing-and-precision game.\nShoot numbered balls into a rotating core and attach them to it without collisions.\n\n## Game Objective\n- Attach all balls for the current level to the core.\n- Complete the level before the queue is exhausted and the core becomes too crowded.\n- Levels get faster and denser as you progress.\n\n## Game Rules\n- Press space to shoot one ball toward the center.\n- A ball collision with another ball fails the run immediately.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the core to rotate\n- space: shoot one ball",
+    "source_task_sha256": "16877fd09427bb77b06844f4dd0932782999a60f53631bbf0c0f9cf5680d0851"
+  },
+  {
+    "task_id": "08_05",
+    "game_id": "08_core-ball",
+    "game_url_suffix": "?level=5",
+    "task": "Clear level 5 with very tight spacing.\nNavigate the densest phase so far and finish the sequence without any collision.\n\n\nRules:\nYou are playing Core Ball, a high-speed 2D timing-and-precision game.\nShoot numbered balls into a rotating core and attach them to it without collisions.\n\n## Game Objective\n- Attach all balls for the current level to the core.\n- Complete the level before the queue is exhausted and the core becomes too crowded.\n- Levels get faster and denser as you progress.\n\n## Game Rules\n- Press space to shoot one ball toward the center.\n- A ball collision with another ball fails the run immediately.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the core to rotate\n- space: shoot one ball",
+    "source_task_sha256": "4f4739411039f577b1cb1faaf34f18bb94301d19eca5a24767ffc03c00e2b27a"
+  },
+  {
+    "task_id": "09_01",
+    "game_id": "09_cubefield",
+    "game_url_suffix": "",
+    "task": "Steer smoothly between cube gaps and finish with a score of at least 10000.\n\n\nRules:\nYou are playing Cubefield, a 3D endless runner where you navigate a triangular ship through a field of cubes.\n\n## Game Objective\n- Survive as long as possible by avoiding cube obstacles.\n\n## Game Rules\n- Move left and right to dodge cubes.\n- The ship automatically moves forward.\n- Hitting any cube ends the game instantly.\n\n\nCharacter: pilot\nGame controls:\n- Wait: Continue straight.\n- Arrow Left: Move left\n- Arrow Right: Move right",
+    "source_task_sha256": "c80249a6b184ace2e7337a2e102251e79569ff9b7728591fa27afea96f2b7260"
+  },
+  {
+    "task_id": "09_02",
+    "game_id": "09_cubefield",
+    "game_url_suffix": "",
+    "task": "Stay alive through early waves and push your score to at least 20000.\n\n\nRules:\nYou are playing Cubefield, a 3D endless runner where you navigate a triangular ship through a field of cubes.\n\n## Game Objective\n- Survive as long as possible by avoiding cube obstacles.\n\n## Game Rules\n- Move left and right to dodge cubes.\n- The ship automatically moves forward.\n- Hitting any cube ends the game instantly.\n\n\nCharacter: pilot\nGame controls:\n- Wait: Continue straight.\n- Arrow Left: Move left\n- Arrow Right: Move right",
+    "source_task_sha256": "943b4de37da1e268935b0606e5791f260d16d3d14079c2dc180148cce8b25718"
+  },
+  {
+    "task_id": "09_03",
+    "game_id": "09_cubefield",
+    "game_url_suffix": "",
+    "task": "Use precise dodging to keep momentum and reach at least 35000 points in one run.\n\n\nRules:\nYou are playing Cubefield, a 3D endless runner where you navigate a triangular ship through a field of cubes.\n\n## Game Objective\n- Survive as long as possible by avoiding cube obstacles.\n\n## Game Rules\n- Move left and right to dodge cubes.\n- The ship automatically moves forward.\n- Hitting any cube ends the game instantly.\n\n\nCharacter: pilot\nGame controls:\n- Wait: Continue straight.\n- Arrow Left: Move left\n- Arrow Right: Move right",
+    "source_task_sha256": "9f434b1d321e5858f553c0645266162c19d5f94521e7e0ae46440be0064fdedf"
+  },
+  {
+    "task_id": "09_04",
+    "game_id": "09_cubefield",
+    "game_url_suffix": "",
+    "task": "Handle denser, faster traffic with consistent lane changes and score at least 60000 in a single run.\n\n\nRules:\nYou are playing Cubefield, a 3D endless runner where you navigate a triangular ship through a field of cubes.\n\n## Game Objective\n- Survive as long as possible by avoiding cube obstacles.\n\n## Game Rules\n- Move left and right to dodge cubes.\n- The ship automatically moves forward.\n- Hitting any cube ends the game instantly.\n\n\nCharacter: pilot\nGame controls:\n- Wait: Continue straight.\n- Arrow Left: Move left\n- Arrow Right: Move right",
+    "source_task_sha256": "566fd8d8acb25169cc6bd9e2fe93978cab677f0af92626cf969299ba6475ffbd"
+  },
+  {
+    "task_id": "09_05",
+    "game_id": "09_cubefield",
+    "game_url_suffix": "",
+    "task": "Sustain accurate high-speed dodging for an extended run and reach at least 100000 points.\n\n\nRules:\nYou are playing Cubefield, a 3D endless runner where you navigate a triangular ship through a field of cubes.\n\n## Game Objective\n- Survive as long as possible by avoiding cube obstacles.\n\n## Game Rules\n- Move left and right to dodge cubes.\n- The ship automatically moves forward.\n- Hitting any cube ends the game instantly.\n\n\nCharacter: pilot\nGame controls:\n- Wait: Continue straight.\n- Arrow Left: Move left\n- Arrow Right: Move right",
+    "source_task_sha256": "5c496af8b998220663887ff5715dc285aee53fc4b41c811422ad9375f4cfd44a"
+  },
+  {
+    "task_id": "10_01",
+    "game_id": "10_doodle-jump",
+    "game_url_suffix": "",
+    "task": "Build a stable early climb and finish with a score of at least 200.\n\n\nRules:\nYou are playing Doodle Jump, a vertical platformer.\n\n## Game Objective\n- Keep ascending by landing on higher platforms.\n\n## Game Rules\n- Green platforms: normal platforms.\n- Blue movable platforms: moving left and right.\n- Red breakable platforms: if you step on it, it will break and you will fall.\n- White vanishable platforms: can step on it once, it will vanish.\n- The left and right sides wrap around each other.\n\n\nCharacter: doodle\nGame controls:\n- Wait: Do nothing to continue vertical movement.\n- left / right: move horizontally.",
+    "source_task_sha256": "278fc166b4d4844c8d4886c5a6acf1faffec7b2e764b2e916d723a56a18194b0"
+  },
+  {
+    "task_id": "10_02",
+    "game_id": "10_doodle-jump",
+    "game_url_suffix": "",
+    "task": "Keep momentum through mixed platforms and push the run to at least 500 points.\n\n\nRules:\nYou are playing Doodle Jump, a vertical platformer.\n\n## Game Objective\n- Keep ascending by landing on higher platforms.\n\n## Game Rules\n- Green platforms: normal platforms.\n- Blue movable platforms: moving left and right.\n- Red breakable platforms: if you step on it, it will break and you will fall.\n- White vanishable platforms: can step on it once, it will vanish.\n- The left and right sides wrap around each other.\n\n\nCharacter: doodle\nGame controls:\n- Wait: Do nothing to continue vertical movement.\n- left / right: move horizontally.",
+    "source_task_sha256": "325f121860748808b4642177d686e8fb7d7311cccdddc89fd4bce2ed0597b02d"
+  },
+  {
+    "task_id": "10_03",
+    "game_id": "10_doodle-jump",
+    "game_url_suffix": "",
+    "task": "Navigate denser platform patterns and reach at least 1000 before a fall.\n\n\nRules:\nYou are playing Doodle Jump, a vertical platformer.\n\n## Game Objective\n- Keep ascending by landing on higher platforms.\n\n## Game Rules\n- Green platforms: normal platforms.\n- Blue movable platforms: moving left and right.\n- Red breakable platforms: if you step on it, it will break and you will fall.\n- White vanishable platforms: can step on it once, it will vanish.\n- The left and right sides wrap around each other.\n\n\nCharacter: doodle\nGame controls:\n- Wait: Do nothing to continue vertical movement.\n- left / right: move horizontally.",
+    "source_task_sha256": "04469d56387b9978ffa6da05ff5e5ad99bf860ee25076c7c4a410e404bf446d1"
+  },
+  {
+    "task_id": "10_04",
+    "game_id": "10_doodle-jump",
+    "game_url_suffix": "",
+    "task": "Chain clean landings across moving and fragile platforms to reach at least 3000.\n\n\nRules:\nYou are playing Doodle Jump, a vertical platformer.\n\n## Game Objective\n- Keep ascending by landing on higher platforms.\n\n## Game Rules\n- Green platforms: normal platforms.\n- Blue movable platforms: moving left and right.\n- Red breakable platforms: if you step on it, it will break and you will fall.\n- White vanishable platforms: can step on it once, it will vanish.\n- The left and right sides wrap around each other.\n\n\nCharacter: doodle\nGame controls:\n- Wait: Do nothing to continue vertical movement.\n- left / right: move horizontally.",
+    "source_task_sha256": "242e434bc9583f69893172b6bb97fdee7366f0672a183cddcd9214b894d98a4b"
+  },
+  {
+    "task_id": "10_05",
+    "game_id": "10_doodle-jump",
+    "game_url_suffix": "",
+    "task": "Sustain long-run positioning discipline and finish with at least 10000 points.\n\n\nRules:\nYou are playing Doodle Jump, a vertical platformer.\n\n## Game Objective\n- Keep ascending by landing on higher platforms.\n\n## Game Rules\n- Green platforms: normal platforms.\n- Blue movable platforms: moving left and right.\n- Red breakable platforms: if you step on it, it will break and you will fall.\n- White vanishable platforms: can step on it once, it will vanish.\n- The left and right sides wrap around each other.\n\n\nCharacter: doodle\nGame controls:\n- Wait: Do nothing to continue vertical movement.\n- left / right: move horizontally.",
+    "source_task_sha256": "318fd8e464976b102634763aac73374c3612fcf0edd14ac0afe927c6fb28c641"
+  },
+  {
+    "task_id": "11_01",
+    "game_id": "11_edge-surf",
+    "game_url_suffix": "",
+    "task": "Clear the opening obstacle sets and reach at least 200 points while preserving lives.\n\n\nRules:\nYou are playing Edge Surf, an endless surfing game.\nYou control a surfer riding waves and collecting items.\n\n## Game Objective\n- Survive as long as possible while surfing.\n- Achieve the highest score and distance with 3 lives.\n\n## Game Rules\n- You can only turn left or right, slow down or boost the surfer.\n- Hitting obstacles costs lives.\n- Collecting boosts gives temporary speed, and shields gives temporary invincibility.\n\n\nCharacter: surfer\nGame controls:\n- Wait: Continue surfing in the same direction without action.\n- Arrow Left: Turn left\n- Arrow Right: Turn right\n- Arrow Up: Slow down the surfer\n- Arrow Down: Boost the surfer (requires a boost item)",
+    "source_task_sha256": "22d670f30eeec3bc68d73314d939cbf5af970ca5f359e7942a44ba821798fc7f"
+  },
+  {
+    "task_id": "11_02",
+    "game_id": "11_edge-surf",
+    "game_url_suffix": "",
+    "task": "Maintain controlled turns through mid-run traffic and reach at least 500 in one run.\n\n\nRules:\nYou are playing Edge Surf, an endless surfing game.\nYou control a surfer riding waves and collecting items.\n\n## Game Objective\n- Survive as long as possible while surfing.\n- Achieve the highest score and distance with 3 lives.\n\n## Game Rules\n- You can only turn left or right, slow down or boost the surfer.\n- Hitting obstacles costs lives.\n- Collecting boosts gives temporary speed, and shields gives temporary invincibility.\n\n\nCharacter: surfer\nGame controls:\n- Wait: Continue surfing in the same direction without action.\n- Arrow Left: Turn left\n- Arrow Right: Turn right\n- Arrow Up: Slow down the surfer\n- Arrow Down: Boost the surfer (requires a boost item)",
+    "source_task_sha256": "98def6463195277bb7ad904d24171840a39615a01df2da1012c5b2ca31a73738"
+  },
+  {
+    "task_id": "11_03",
+    "game_id": "11_edge-surf",
+    "game_url_suffix": "",
+    "task": "Survive denser obstacle waves and push the score to at least 800.\n\n\nRules:\nYou are playing Edge Surf, an endless surfing game.\nYou control a surfer riding waves and collecting items.\n\n## Game Objective\n- Survive as long as possible while surfing.\n- Achieve the highest score and distance with 3 lives.\n\n## Game Rules\n- You can only turn left or right, slow down or boost the surfer.\n- Hitting obstacles costs lives.\n- Collecting boosts gives temporary speed, and shields gives temporary invincibility.\n\n\nCharacter: surfer\nGame controls:\n- Wait: Continue surfing in the same direction without action.\n- Arrow Left: Turn left\n- Arrow Right: Turn right\n- Arrow Up: Slow down the surfer\n- Arrow Down: Boost the surfer (requires a boost item)",
+    "source_task_sha256": "9a1c70df502dcafa223f5ba0625aee7fd4898d2436ac8c1686907c8eff26054e"
+  },
+  {
+    "task_id": "11_04",
+    "game_id": "11_edge-surf",
+    "game_url_suffix": "",
+    "task": "Keep long-run consistency and reach at least 1200 points without a terminal fail.\n\n\nRules:\nYou are playing Edge Surf, an endless surfing game.\nYou control a surfer riding waves and collecting items.\n\n## Game Objective\n- Survive as long as possible while surfing.\n- Achieve the highest score and distance with 3 lives.\n\n## Game Rules\n- You can only turn left or right, slow down or boost the surfer.\n- Hitting obstacles costs lives.\n- Collecting boosts gives temporary speed, and shields gives temporary invincibility.\n\n\nCharacter: surfer\nGame controls:\n- Wait: Continue surfing in the same direction without action.\n- Arrow Left: Turn left\n- Arrow Right: Turn right\n- Arrow Up: Slow down the surfer\n- Arrow Down: Boost the surfer (requires a boost item)",
+    "source_task_sha256": "31b849d19615650e17f7d078d5e8937e4f40cf15a31dec21ec4d560cc4946bf0"
+  },
+  {
+    "task_id": "11_05",
+    "game_id": "11_edge-surf",
+    "game_url_suffix": "",
+    "task": "Execute an extended survival run and finish with a score of at least 2000.\n\n\nRules:\nYou are playing Edge Surf, an endless surfing game.\nYou control a surfer riding waves and collecting items.\n\n## Game Objective\n- Survive as long as possible while surfing.\n- Achieve the highest score and distance with 3 lives.\n\n## Game Rules\n- You can only turn left or right, slow down or boost the surfer.\n- Hitting obstacles costs lives.\n- Collecting boosts gives temporary speed, and shields gives temporary invincibility.\n\n\nCharacter: surfer\nGame controls:\n- Wait: Continue surfing in the same direction without action.\n- Arrow Left: Turn left\n- Arrow Right: Turn right\n- Arrow Up: Slow down the surfer\n- Arrow Down: Boost the surfer (requires a boost item)",
+    "source_task_sha256": "4d479fd42f0d116eb86a0f3f8bde621db2a35e7535eb43d7f99eb01b167da76e"
+  },
+  {
+    "task_id": "12_01",
+    "game_id": "12_fireboy-and-watergirl",
+    "game_url_suffix": "?level=1",
+    "task": "Level 1 target task.\nRequirements (both required):\n- Fireboy collects at least 1 red diamond.\n- Watergirl collects at least 1 blue diamond.\nTask succeeds only when both role-specific targets are met in the same run.\n\n\nRules:\nYou are playing 'Fireboy and Watergirl in The Forest Temple'.\nSome puzzles require both characters to cooperate to solve.\n\n## Game Objective\n- Both characters must reach their respective exit doors to complete the level.\n- Collect all diamonds for a higher score.\n\n## Game Rules\n- Green toxic liquid: Kills BOTH characters\n- Red lava pools: Kills Watergirl only\n- Blue water pools: Kills Fireboy only\n- Buttons and levers control platforms and doors\n- Boxes can be pushed to reach higher platforms\n\n\nCharacter: watergirl\nGame controls:\n- W: Jump\n- A: Move left\n- D: Move right\n- W + A: Jump left\n- W + D: Jump right\n\n\nCharacter: fireboy\nGame controls:\n- up: Jump\n- left: Move left\n- right: Move right\n- up + left: Jump left\n- up + right: Jump right",
+    "source_task_sha256": "6e041d6a9c242ea96026a88ad41837cd27f5509b861e775028c910a33e87a3cd"
+  },
+  {
+    "task_id": "12_02",
+    "game_id": "12_fireboy-and-watergirl",
+    "game_url_suffix": "?level=1",
+    "task": "Level 1 target task.\nRequirements (both required):\n- Fireboy collects at least 3 red diamonds.\n- Watergirl collects at least 4 blue diamonds.\nTask succeeds only when both role-specific targets are met in the same run.\n\n\nRules:\nYou are playing 'Fireboy and Watergirl in The Forest Temple'.\nSome puzzles require both characters to cooperate to solve.\n\n## Game Objective\n- Both characters must reach their respective exit doors to complete the level.\n- Collect all diamonds for a higher score.\n\n## Game Rules\n- Green toxic liquid: Kills BOTH characters\n- Red lava pools: Kills Watergirl only\n- Blue water pools: Kills Fireboy only\n- Buttons and levers control platforms and doors\n- Boxes can be pushed to reach higher platforms\n\n\nCharacter: watergirl\nGame controls:\n- W: Jump\n- A: Move left\n- D: Move right\n- W + A: Jump left\n- W + D: Jump right\n\n\nCharacter: fireboy\nGame controls:\n- up: Jump\n- left: Move left\n- right: Move right\n- up + left: Jump left\n- up + right: Jump right",
+    "source_task_sha256": "41862af384df425b274ddeafebc4868b8020fccda07ed643e11f2b196e7b9dd8"
+  },
+  {
+    "task_id": "12_03",
+    "game_id": "12_fireboy-and-watergirl",
+    "game_url_suffix": "?level=2",
+    "task": "Level 2 target task.\nRequirements (both required):\n- Fireboy collects at least 8 red diamonds.\n- Watergirl collects at least 8 blue diamonds.\nTask succeeds only when both role-specific targets are met in the same run.\n\n\nRules:\nYou are playing 'Fireboy and Watergirl in The Forest Temple'.\nSome puzzles require both characters to cooperate to solve.\n\n## Game Objective\n- Both characters must reach their respective exit doors to complete the level.\n- Collect all diamonds for a higher score.\n\n## Game Rules\n- Green toxic liquid: Kills BOTH characters\n- Red lava pools: Kills Watergirl only\n- Blue water pools: Kills Fireboy only\n- Buttons and levers control platforms and doors\n- Boxes can be pushed to reach higher platforms\n\n\nCharacter: watergirl\nGame controls:\n- W: Jump\n- A: Move left\n- D: Move right\n- W + A: Jump left\n- W + D: Jump right\n\n\nCharacter: fireboy\nGame controls:\n- up: Jump\n- left: Move left\n- right: Move right\n- up + left: Jump left\n- up + right: Jump right",
+    "source_task_sha256": "1e715a0ff0bf83c590c2e86d0e5ef551752e659b306007897e2cbad0d7e45aae"
+  },
+  {
+    "task_id": "12_04",
+    "game_id": "12_fireboy-and-watergirl",
+    "game_url_suffix": "?level=3",
+    "task": "Level 3 target task.\nRequirements (both required):\n- Fireboy collects at least 10 red diamonds.\n- Watergirl collects at least 10 blue diamonds.\nTask succeeds only when both role-specific targets are met in the same run.\n\n\nRules:\nYou are playing 'Fireboy and Watergirl in The Forest Temple'.\nSome puzzles require both characters to cooperate to solve.\n\n## Game Objective\n- Both characters must reach their respective exit doors to complete the level.\n- Collect all diamonds for a higher score.\n\n## Game Rules\n- Green toxic liquid: Kills BOTH characters\n- Red lava pools: Kills Watergirl only\n- Blue water pools: Kills Fireboy only\n- Buttons and levers control platforms and doors\n- Boxes can be pushed to reach higher platforms\n\n\nCharacter: watergirl\nGame controls:\n- W: Jump\n- A: Move left\n- D: Move right\n- W + A: Jump left\n- W + D: Jump right\n\n\nCharacter: fireboy\nGame controls:\n- up: Jump\n- left: Move left\n- right: Move right\n- up + left: Jump left\n- up + right: Jump right",
+    "source_task_sha256": "58da176b1ab57bf1c9afb3facbc5d3fd2cc7a9ef18be33a0db73507e3d56e2b3"
+  },
+  {
+    "task_id": "12_05",
+    "game_id": "12_fireboy-and-watergirl",
+    "game_url_suffix": "?level=4",
+    "task": "Level 4 target task.\nRequirements (both required):\n- Fireboy collects at least 6 red diamonds.\n- Watergirl collects at least 6 blue diamonds.\nTask succeeds only when both role-specific targets are met in the same run.\n\n\nRules:\nYou are playing 'Fireboy and Watergirl in The Forest Temple'.\nSome puzzles require both characters to cooperate to solve.\n\n## Game Objective\n- Both characters must reach their respective exit doors to complete the level.\n- Collect all diamonds for a higher score.\n\n## Game Rules\n- Green toxic liquid: Kills BOTH characters\n- Red lava pools: Kills Watergirl only\n- Blue water pools: Kills Fireboy only\n- Buttons and levers control platforms and doors\n- Boxes can be pushed to reach higher platforms\n\n\nCharacter: watergirl\nGame controls:\n- W: Jump\n- A: Move left\n- D: Move right\n- W + A: Jump left\n- W + D: Jump right\n\n\nCharacter: fireboy\nGame controls:\n- up: Jump\n- left: Move left\n- right: Move right\n- up + left: Jump left\n- up + right: Jump right",
+    "source_task_sha256": "3b065c6cba82ef25c6a97a942b7d56f513cfcfad56ddb0a04f4aee3645ba0ed4"
+  },
+  {
+    "task_id": "13_01",
+    "game_id": "13_flappy-bird",
+    "game_url_suffix": "",
+    "task": "Clear at least 1 pipe in a single run.\nKeep altitude stable through the first gap.\n\n\nRules:\nYou are playing Flappy Bird, a one-button flying game.\n\n## Game Objective\n- Keep the bird flying between pipes for as long as possible.\n- Pass pipes to increase your score.\n\n## Game Rules\n- Press space to flap upward; gravity pulls you down.\n- Hitting pipes or the ground ends the run.\n\n\nCharacter: player\nGame controls:\n- space: Flap upward\n- Wait: Do nothing briefly to let gravity pull bird downward",
+    "source_task_sha256": "e85f48d9ea8050c6a677b7befacfa93e0ab194a67003a86eb76d220ae53aaf13"
+  },
+  {
+    "task_id": "13_02",
+    "game_id": "13_flappy-bird",
+    "game_url_suffix": "",
+    "task": "Pass at least 3 pipes in one run.\n\n\nRules:\nYou are playing Flappy Bird, a one-button flying game.\n\n## Game Objective\n- Keep the bird flying between pipes for as long as possible.\n- Pass pipes to increase your score.\n\n## Game Rules\n- Press space to flap upward; gravity pulls you down.\n- Hitting pipes or the ground ends the run.\n\n\nCharacter: player\nGame controls:\n- space: Flap upward\n- Wait: Do nothing briefly to let gravity pull bird downward",
+    "source_task_sha256": "b95a318778e49a5cc81b551f10e076cc3e9618b3cf191a773456ddd68f1db1dc"
+  },
+  {
+    "task_id": "13_03",
+    "game_id": "13_flappy-bird",
+    "game_url_suffix": "",
+    "task": "Reach at least 6 cleared pipes before crashing.\n\n\nRules:\nYou are playing Flappy Bird, a one-button flying game.\n\n## Game Objective\n- Keep the bird flying between pipes for as long as possible.\n- Pass pipes to increase your score.\n\n## Game Rules\n- Press space to flap upward; gravity pulls you down.\n- Hitting pipes or the ground ends the run.\n\n\nCharacter: player\nGame controls:\n- space: Flap upward\n- Wait: Do nothing briefly to let gravity pull bird downward",
+    "source_task_sha256": "c2279296fdd4728091fb8388c94aba22c82d630b0aa3cb834210045b1dfcd934"
+  },
+  {
+    "task_id": "13_04",
+    "game_id": "13_flappy-bird",
+    "game_url_suffix": "",
+    "task": "Survive long enough to pass at least 10 pipes in one attempt.\n\n\nRules:\nYou are playing Flappy Bird, a one-button flying game.\n\n## Game Objective\n- Keep the bird flying between pipes for as long as possible.\n- Pass pipes to increase your score.\n\n## Game Rules\n- Press space to flap upward; gravity pulls you down.\n- Hitting pipes or the ground ends the run.\n\n\nCharacter: player\nGame controls:\n- space: Flap upward\n- Wait: Do nothing briefly to let gravity pull bird downward",
+    "source_task_sha256": "c164cc8d3582a63480d669963dbfa4270374cd2823496b14341e4ccc2c149b85"
+  },
+  {
+    "task_id": "13_05",
+    "game_id": "13_flappy-bird",
+    "game_url_suffix": "",
+    "task": "Execute a high-consistency run and pass at least 15 pipes.\n\n\nRules:\nYou are playing Flappy Bird, a one-button flying game.\n\n## Game Objective\n- Keep the bird flying between pipes for as long as possible.\n- Pass pipes to increase your score.\n\n## Game Rules\n- Press space to flap upward; gravity pulls you down.\n- Hitting pipes or the ground ends the run.\n\n\nCharacter: player\nGame controls:\n- space: Flap upward\n- Wait: Do nothing briefly to let gravity pull bird downward",
+    "source_task_sha256": "a6cc78e4ca48f5c2a67659b2db78ae298cbf3a4d2d4de98dc63d033147e81745"
+  },
+  {
+    "task_id": "14_01",
+    "game_id": "14_geodash",
+    "game_url_suffix": "?level=1",
+    "task": "Complete a clean opening section and reach at least 50 scores.\nTime each jump to clear spikes without edge clips.\n\n\nRules:\nYou are playing GeoDash, a Geometry Dash-style auto-running platformer.\n\n## Game Objective\n- Survive for as long as possible.\n- Jump over spikes and hazards.\n\n## Game Rules\n- The character auto-runs continuously.\n- Jump timing is the core mechanic.\n- Crashing into obstacles ends the run.\n\n\nCharacter: player\nGame controls:\n- space",
+    "source_task_sha256": "222e0655ec3bea0a704731a8c1fd9969a04fae947ecd80f7a03609127b917d6f"
+  },
+  {
+    "task_id": "14_02",
+    "game_id": "14_geodash",
+    "game_url_suffix": "?level=1",
+    "task": "Push through repeated hazard patterns and reach at least 100 in one run.\nKeep jump cadence consistent across similar spike groups.\n\n\nRules:\nYou are playing GeoDash, a Geometry Dash-style auto-running platformer.\n\n## Game Objective\n- Survive for as long as possible.\n- Jump over spikes and hazards.\n\n## Game Rules\n- The character auto-runs continuously.\n- Jump timing is the core mechanic.\n- Crashing into obstacles ends the run.\n\n\nCharacter: player\nGame controls:\n- space",
+    "source_task_sha256": "c09c4b1613199d92c0eafd80450e5018372e09348bdc00e43940431a1dd1bc53"
+  },
+  {
+    "task_id": "14_03",
+    "game_id": "14_geodash",
+    "game_url_suffix": "?level=1",
+    "task": "Survive long enough to score at least 200.\nMaintain precise timing and avoid panic-tap jump chains.\n\n\nRules:\nYou are playing GeoDash, a Geometry Dash-style auto-running platformer.\n\n## Game Objective\n- Survive for as long as possible.\n- Jump over spikes and hazards.\n\n## Game Rules\n- The character auto-runs continuously.\n- Jump timing is the core mechanic.\n- Crashing into obstacles ends the run.\n\n\nCharacter: player\nGame controls:\n- space",
+    "source_task_sha256": "0ba5bcbe2177a73d6d5da1e1c138c7d9645d2c9ffc6a2b7d55ad83ebda861526"
+  },
+  {
+    "task_id": "14_04",
+    "game_id": "14_geodash",
+    "game_url_suffix": "?level=2",
+    "task": "Navigate faster mixed patterns and reach a score of at least 200.\nCommit to measured and precise jumps.\n\n\nRules:\nYou are playing GeoDash, a Geometry Dash-style auto-running platformer.\n\n## Game Objective\n- Survive for as long as possible.\n- Jump over spikes and hazards.\n\n## Game Rules\n- The character auto-runs continuously.\n- Jump timing is the core mechanic.\n- Crashing into obstacles ends the run.\n\n\nCharacter: player\nGame controls:\n- space",
+    "source_task_sha256": "48520827ee093e9deb0662317c98c2492ca5668430c3b8c86b4dfcca4d7e2f22"
+  },
+  {
+    "task_id": "14_05",
+    "game_id": "14_geodash",
+    "game_url_suffix": "?level=3",
+    "task": "Deliver an extended precision run and finish with at least 200 points.\nPreserve rhythm through long spike chains and late tight gaps.\n\n\nRules:\nYou are playing GeoDash, a Geometry Dash-style auto-running platformer.\n\n## Game Objective\n- Survive for as long as possible.\n- Jump over spikes and hazards.\n\n## Game Rules\n- The character auto-runs continuously.\n- Jump timing is the core mechanic.\n- Crashing into obstacles ends the run.\n\n\nCharacter: player\nGame controls:\n- space",
+    "source_task_sha256": "80fa10b45ce01bd47293ab3179401bd907b2daad4839cca4286c559da734189e"
+  },
+  {
+    "task_id": "15_01",
+    "game_id": "15_google-snake",
+    "game_url_suffix": "",
+    "task": "Secure at least 2 apples in a single run.\n\n\nRules:\nYou are playing Google Snake, the classic snake game.\n\n## Game Objective\n- Eat apples to grow longer and increase score.\n- Avoid crashing into walls or your own body.\n\n## Game Rules\n- The snake moves continuously in the chosen direction.\n- You can turn up, down, left, or right.\n- The game ends when you hit a wall or your body.\n\n\nCharacter: player\nGame controls:\n- ArrowUP: Turn upward\n- down: Turn downward\n- left: Turn left\n- right: Turn right\n- Wait: Do nothing briefly to keep the direction",
+    "source_task_sha256": "527a1e700e7b3365683fd9294789e96c242f9598789fdea0629275722efa1389"
+  },
+  {
+    "task_id": "15_02",
+    "game_id": "15_google-snake",
+    "game_url_suffix": "",
+    "task": "Eat at least 3 apples in one run.\n\n\nRules:\nYou are playing Google Snake, the classic snake game.\n\n## Game Objective\n- Eat apples to grow longer and increase score.\n- Avoid crashing into walls or your own body.\n\n## Game Rules\n- The snake moves continuously in the chosen direction.\n- You can turn up, down, left, or right.\n- The game ends when you hit a wall or your body.\n\n\nCharacter: player\nGame controls:\n- ArrowUP: Turn upward\n- down: Turn downward\n- left: Turn left\n- right: Turn right\n- Wait: Do nothing briefly to keep the direction",
+    "source_task_sha256": "391fd997ae571267e1ec53f21a910630a08bbbc4b7bd2150f28537ee81311c27"
+  },
+  {
+    "task_id": "15_03",
+    "game_id": "15_google-snake",
+    "game_url_suffix": "",
+    "task": "Reach at least 6 apples before crashing.\n\n\nRules:\nYou are playing Google Snake, the classic snake game.\n\n## Game Objective\n- Eat apples to grow longer and increase score.\n- Avoid crashing into walls or your own body.\n\n## Game Rules\n- The snake moves continuously in the chosen direction.\n- You can turn up, down, left, or right.\n- The game ends when you hit a wall or your body.\n\n\nCharacter: player\nGame controls:\n- ArrowUP: Turn upward\n- down: Turn downward\n- left: Turn left\n- right: Turn right\n- Wait: Do nothing briefly to keep the direction",
+    "source_task_sha256": "420cab385d92b7faeae8938a46c31fe1bdbb6b0639eb52219aa60495ec0f4df0"
+  },
+  {
+    "task_id": "15_04",
+    "game_id": "15_google-snake",
+    "game_url_suffix": "",
+    "task": "Build a controlled mid-length snake and eat at least 10 apples.\n\n\nRules:\nYou are playing Google Snake, the classic snake game.\n\n## Game Objective\n- Eat apples to grow longer and increase score.\n- Avoid crashing into walls or your own body.\n\n## Game Rules\n- The snake moves continuously in the chosen direction.\n- You can turn up, down, left, or right.\n- The game ends when you hit a wall or your body.\n\n\nCharacter: player\nGame controls:\n- ArrowUP: Turn upward\n- down: Turn downward\n- left: Turn left\n- right: Turn right\n- Wait: Do nothing briefly to keep the direction",
+    "source_task_sha256": "9ac71f914a4bc98a44cfcb3bff99dc8479444d4c308699b0d78a60ad1f79c3ff"
+  },
+  {
+    "task_id": "15_05",
+    "game_id": "15_google-snake",
+    "game_url_suffix": "",
+    "task": "Complete a long survival route and consume at least 15 apples.\n\n\nRules:\nYou are playing Google Snake, the classic snake game.\n\n## Game Objective\n- Eat apples to grow longer and increase score.\n- Avoid crashing into walls or your own body.\n\n## Game Rules\n- The snake moves continuously in the chosen direction.\n- You can turn up, down, left, or right.\n- The game ends when you hit a wall or your body.\n\n\nCharacter: player\nGame controls:\n- ArrowUP: Turn upward\n- down: Turn downward\n- left: Turn left\n- right: Turn right\n- Wait: Do nothing briefly to keep the direction",
+    "source_task_sha256": "9ccae2f4ca0d04ab89388ef492c3825ffc3538938887bc8f964c97081cfa86aa"
+  },
+  {
+    "task_id": "16_01",
+    "game_id": "16_hextris",
+    "game_url_suffix": "?level=1",
+    "task": "Reach at least 500 score without overflowing the board.\nPrioritize rhythm and stable rotations over risky last-second shots.\n\n\nRules:\nYou are playing Hextris, a fast-paced hexagon-based puzzle game.\n\n## Game Objective\n- Matching Mechanism: Group 3 or more blocks of the same color on any of the six sides to clear them and get scores.\n- Prevent blocks from stacking outside the outer boundary of the central hexagon.\n\n## Game Rules\n- The game runs continuously and blocks fall from the edges into the central hexagon.\n- The speed of the falling blocks increases over time.\n- Left/Right arrows rotate the hexagon in opposite directions.\n- Press Down to speed up falling block motion.\n\n\nCharacter: player\nGame controls:\n- left: rotate hexagon left\n- right: rotate hexagon right\n- down: accelerate falling blocks",
+    "source_task_sha256": "6c7d28ba44c2ebc3a15919afde08a60d4265700591fdc84a2a1c4beb36650f95"
+  },
+  {
+    "task_id": "16_02",
+    "game_id": "16_hextris",
+    "game_url_suffix": "?level=2",
+    "task": "Keep all six sides balanced, rotate to set up big clears, and reach at least 750 score.\nAvoid contacts that cause immediate board overflow.\n\n\nRules:\nYou are playing Hextris, a fast-paced hexagon-based puzzle game.\n\n## Game Objective\n- Matching Mechanism: Group 3 or more blocks of the same color on any of the six sides to clear them and get scores.\n- Prevent blocks from stacking outside the outer boundary of the central hexagon.\n\n## Game Rules\n- The game runs continuously and blocks fall from the edges into the central hexagon.\n- The speed of the falling blocks increases over time.\n- Left/Right arrows rotate the hexagon in opposite directions.\n- Press Down to speed up falling block motion.\n\n\nCharacter: player\nGame controls:\n- left: rotate hexagon left\n- right: rotate hexagon right\n- down: accelerate falling blocks",
+    "source_task_sha256": "4581b88a8b66a23cd578752ea6a5ce618c60db5ade0705d3f7cbba88871e797d"
+  },
+  {
+    "task_id": "16_03",
+    "game_id": "16_hextris",
+    "game_url_suffix": "?level=3",
+    "task": "Build long combo chains and use waiting opportunities before rotating.\nReach at least 1000 score without overflowing the board.\n\n\nRules:\nYou are playing Hextris, a fast-paced hexagon-based puzzle game.\n\n## Game Objective\n- Matching Mechanism: Group 3 or more blocks of the same color on any of the six sides to clear them and get scores.\n- Prevent blocks from stacking outside the outer boundary of the central hexagon.\n\n## Game Rules\n- The game runs continuously and blocks fall from the edges into the central hexagon.\n- The speed of the falling blocks increases over time.\n- Left/Right arrows rotate the hexagon in opposite directions.\n- Press Down to speed up falling block motion.\n\n\nCharacter: player\nGame controls:\n- left: rotate hexagon left\n- right: rotate hexagon right\n- down: accelerate falling blocks",
+    "source_task_sha256": "a9ef32009897e797761e836fe697c0b0d35c6b5c724901b4ac7ff42acde3bc0a"
+  },
+  {
+    "task_id": "16_04",
+    "game_id": "16_hextris",
+    "game_url_suffix": "?level=4",
+    "task": "Reach at least 1250 score without overflowing the board.\nManage side pressure, rotate early when needed, and convert patterns into frequent matching clears.\n\n\nRules:\nYou are playing Hextris, a fast-paced hexagon-based puzzle game.\n\n## Game Objective\n- Matching Mechanism: Group 3 or more blocks of the same color on any of the six sides to clear them and get scores.\n- Prevent blocks from stacking outside the outer boundary of the central hexagon.\n\n## Game Rules\n- The game runs continuously and blocks fall from the edges into the central hexagon.\n- The speed of the falling blocks increases over time.\n- Left/Right arrows rotate the hexagon in opposite directions.\n- Press Down to speed up falling block motion.\n\n\nCharacter: player\nGame controls:\n- left: rotate hexagon left\n- right: rotate hexagon right\n- down: accelerate falling blocks",
+    "source_task_sha256": "d54123e0a13dda6b16b0780b416c219b9025e37e27e52dce04882846a3dda0fa"
+  },
+  {
+    "task_id": "16_05",
+    "game_id": "16_hextris",
+    "game_url_suffix": "?level=5",
+    "task": "Reach at least 1500 score without overflowing the board.\nManage all six sides into high-value clears.\n\n\nRules:\nYou are playing Hextris, a fast-paced hexagon-based puzzle game.\n\n## Game Objective\n- Matching Mechanism: Group 3 or more blocks of the same color on any of the six sides to clear them and get scores.\n- Prevent blocks from stacking outside the outer boundary of the central hexagon.\n\n## Game Rules\n- The game runs continuously and blocks fall from the edges into the central hexagon.\n- The speed of the falling blocks increases over time.\n- Left/Right arrows rotate the hexagon in opposite directions.\n- Press Down to speed up falling block motion.\n\n\nCharacter: player\nGame controls:\n- left: rotate hexagon left\n- right: rotate hexagon right\n- down: accelerate falling blocks",
+    "source_task_sha256": "eadf83ddb6c018cf135e3f15131ff8684e65a90a3099c86ad51ac54d0e922d52"
+  },
+  {
+    "task_id": "17_01",
+    "game_id": "17_mario-game",
+    "game_url_suffix": "",
+    "task": "Reach at least 200 score in this stage.\n\n\nRules:\nYou are playing Super Mario Bros.\nControl Mario through platforming levels, collecting coins and defeating enemies.\n\n## Game Objective\n- Reach the flagpole at the end of each level.\n- Collect coins from question blocks or kill enemies for points.\n\n## Game Rules\n- You have 3 lives and limited time per level.\n- Touching enemies from the side or below kills Mario. Jump on enemies to kill enemies.\n- Jumping underneath question blocks will reveal coins or power-ups.\n- Power-ups: Mushroom make Mario grow big.\n\n\nCharacter: player\nGame controls:\n- left: Move left\n- right: Move right\n- up: Jump\n- down: Duck/crouch (when big)\n- up + left/right: Jump while moving left/right",
+    "source_task_sha256": "d446ff8620ff824aaedf4b2a32c8284bb7cef3b270d05bf7eb6d63fa7925f204"
+  },
+  {
+    "task_id": "17_02",
+    "game_id": "17_mario-game",
+    "game_url_suffix": "",
+    "task": "Reach at least 400 score in one run.\n\n\nRules:\nYou are playing Super Mario Bros.\nControl Mario through platforming levels, collecting coins and defeating enemies.\n\n## Game Objective\n- Reach the flagpole at the end of each level.\n- Collect coins from question blocks or kill enemies for points.\n\n## Game Rules\n- You have 3 lives and limited time per level.\n- Touching enemies from the side or below kills Mario. Jump on enemies to kill enemies.\n- Jumping underneath question blocks will reveal coins or power-ups.\n- Power-ups: Mushroom make Mario grow big.\n\n\nCharacter: player\nGame controls:\n- left: Move left\n- right: Move right\n- up: Jump\n- down: Duck/crouch (when big)\n- up + left/right: Jump while moving left/right",
+    "source_task_sha256": "306e1d00ae692bf0cc6e81e4609afb8f162592b962937a781c2c42c1dbf74335"
+  },
+  {
+    "task_id": "17_03",
+    "game_id": "17_mario-game",
+    "game_url_suffix": "",
+    "task": "Reach at least 1500 score before the run ends.\n\n\nRules:\nYou are playing Super Mario Bros.\nControl Mario through platforming levels, collecting coins and defeating enemies.\n\n## Game Objective\n- Reach the flagpole at the end of each level.\n- Collect coins from question blocks or kill enemies for points.\n\n## Game Rules\n- You have 3 lives and limited time per level.\n- Touching enemies from the side or below kills Mario. Jump on enemies to kill enemies.\n- Jumping underneath question blocks will reveal coins or power-ups.\n- Power-ups: Mushroom make Mario grow big.\n\n\nCharacter: player\nGame controls:\n- left: Move left\n- right: Move right\n- up: Jump\n- down: Duck/crouch (when big)\n- up + left/right: Jump while moving left/right",
+    "source_task_sha256": "b8b31a144d4afae4890871b753cc21fad5265bd23b188dbc645ec13be6c78e61"
+  },
+  {
+    "task_id": "17_04",
+    "game_id": "17_mario-game",
+    "game_url_suffix": "",
+    "task": "Push to at least 2500 score in one attempt.\n\n\nRules:\nYou are playing Super Mario Bros.\nControl Mario through platforming levels, collecting coins and defeating enemies.\n\n## Game Objective\n- Reach the flagpole at the end of each level.\n- Collect coins from question blocks or kill enemies for points.\n\n## Game Rules\n- You have 3 lives and limited time per level.\n- Touching enemies from the side or below kills Mario. Jump on enemies to kill enemies.\n- Jumping underneath question blocks will reveal coins or power-ups.\n- Power-ups: Mushroom make Mario grow big.\n\n\nCharacter: player\nGame controls:\n- left: Move left\n- right: Move right\n- up: Jump\n- down: Duck/crouch (when big)\n- up + left/right: Jump while moving left/right",
+    "source_task_sha256": "af8c251aae6aa123a54f6636f674f172003056e7669624b8d6068bde5b2687c3"
+  },
+  {
+    "task_id": "17_05",
+    "game_id": "17_mario-game",
+    "game_url_suffix": "",
+    "task": "Reach at least 4000 score before terminal failure.\n\n\nRules:\nYou are playing Super Mario Bros.\nControl Mario through platforming levels, collecting coins and defeating enemies.\n\n## Game Objective\n- Reach the flagpole at the end of each level.\n- Collect coins from question blocks or kill enemies for points.\n\n## Game Rules\n- You have 3 lives and limited time per level.\n- Touching enemies from the side or below kills Mario. Jump on enemies to kill enemies.\n- Jumping underneath question blocks will reveal coins or power-ups.\n- Power-ups: Mushroom make Mario grow big.\n\n\nCharacter: player\nGame controls:\n- left: Move left\n- right: Move right\n- up: Jump\n- down: Duck/crouch (when big)\n- up + left/right: Jump while moving left/right",
+    "source_task_sha256": "58c675469c12df04c2e4c98ed363147ae9154862405613cde9847032622b47c9"
+  },
+  {
+    "task_id": "18_01",
+    "game_id": "18_minecraft-clone-glm",
+    "game_url_suffix": "",
+    "task": "Collect at least 20 dirt blocks in this run.\nLook around the ground and mine nearby dirt efficiently.\n\n\nRules:\nYou are playing a Minecraft-style first-person sandbox survival game.\n\n## Game Objective\n- Gather resources by breaking blocks.\n- Move around and mine nearby blocks efficiently.\n\n## Game Rules\n- Hold the left mouse button on the targeted block to mine it. Hold-mining is accelerated in benchmark mode.\n- Place blocks with the right mouse button. A short left click can also place, but right click is the reliable placement action for this benchmark.\n- Move around and jump to navigate the terrain.\n- Aim at different targeting blocks and get close to them to mine them.\n- The starting hotbar is: slot 1 wood logs, slot 2 wood planks, slot 3 cobblestone, slot 4 torches, slot 5 dirt. Newly collected items can fill later hotbar slots.\n\n\nCharacter: player\nGame controls:\n- up: move forward\n- down: move backward\n- left: strafe left\n- right: strafe right\n- space: jump\n- Mouse move: look around / turn camera\n- Left click and hold: mine the targeted block\n- Right click: place the selected block\n- 1-9: select tool/item slot",
+    "source_task_sha256": "5bf76b4cb3b5f3ea6c6af08aa8a569e3d8243e73046e1f5da27268f85bdcb97c"
+  },
+  {
+    "task_id": "18_02",
+    "game_id": "18_minecraft-clone-glm",
+    "game_url_suffix": "",
+    "task": "Gather at least 20 wood logs in this run.\nFind trees, line up with their trunks, and move between trees as needed.\n\n\nRules:\nYou are playing a Minecraft-style first-person sandbox survival game.\n\n## Game Objective\n- Gather resources by breaking blocks.\n- Move around and mine nearby blocks efficiently.\n\n## Game Rules\n- Hold the left mouse button on the targeted block to mine it. Hold-mining is accelerated in benchmark mode.\n- Place blocks with the right mouse button. A short left click can also place, but right click is the reliable placement action for this benchmark.\n- Move around and jump to navigate the terrain.\n- Aim at different targeting blocks and get close to them to mine them.\n- The starting hotbar is: slot 1 wood logs, slot 2 wood planks, slot 3 cobblestone, slot 4 torches, slot 5 dirt. Newly collected items can fill later hotbar slots.\n\n\nCharacter: player\nGame controls:\n- up: move forward\n- down: move backward\n- left: strafe left\n- right: strafe right\n- space: jump\n- Mouse move: look around / turn camera\n- Left click and hold: mine the targeted block\n- Right click: place the selected block\n- 1-9: select tool/item slot",
+    "source_task_sha256": "06b7c4116dfd4e301c09b227bb7f6c443bc7f94452f8bd40dfd3988198f0ed38"
+  },
+  {
+    "task_id": "18_03",
+    "game_id": "18_minecraft-clone-glm",
+    "game_url_suffix": "",
+    "task": "Acquire at least 50 leaves in this run.\nKeep moving through the area and collect nearby leaves on the trees.\n\n\nRules:\nYou are playing a Minecraft-style first-person sandbox survival game.\n\n## Game Objective\n- Gather resources by breaking blocks.\n- Move around and mine nearby blocks efficiently.\n\n## Game Rules\n- Hold the left mouse button on the targeted block to mine it. Hold-mining is accelerated in benchmark mode.\n- Place blocks with the right mouse button. A short left click can also place, but right click is the reliable placement action for this benchmark.\n- Move around and jump to navigate the terrain.\n- Aim at different targeting blocks and get close to them to mine them.\n- The starting hotbar is: slot 1 wood logs, slot 2 wood planks, slot 3 cobblestone, slot 4 torches, slot 5 dirt. Newly collected items can fill later hotbar slots.\n\n\nCharacter: player\nGame controls:\n- up: move forward\n- down: move backward\n- left: strafe left\n- right: strafe right\n- space: jump\n- Mouse move: look around / turn camera\n- Left click and hold: mine the targeted block\n- Right click: place the selected block\n- 1-9: select tool/item slot",
+    "source_task_sha256": "768a6bc1120ae2d60f80ee24eb92dc83b3873a2609d10997bdff4db07037997c"
+  },
+  {
+    "task_id": "18_04",
+    "game_id": "18_minecraft-clone-glm",
+    "game_url_suffix": "",
+    "task": "Mine at least 20 stone blocks in this run.\nDig into exposed stone or shallow underground areas and keep collecting them.\n\n\nRules:\nYou are playing a Minecraft-style first-person sandbox survival game.\n\n## Game Objective\n- Gather resources by breaking blocks.\n- Move around and mine nearby blocks efficiently.\n\n## Game Rules\n- Hold the left mouse button on the targeted block to mine it. Hold-mining is accelerated in benchmark mode.\n- Place blocks with the right mouse button. A short left click can also place, but right click is the reliable placement action for this benchmark.\n- Move around and jump to navigate the terrain.\n- Aim at different targeting blocks and get close to them to mine them.\n- The starting hotbar is: slot 1 wood logs, slot 2 wood planks, slot 3 cobblestone, slot 4 torches, slot 5 dirt. Newly collected items can fill later hotbar slots.\n\n\nCharacter: player\nGame controls:\n- up: move forward\n- down: move backward\n- left: strafe left\n- right: strafe right\n- space: jump\n- Mouse move: look around / turn camera\n- Left click and hold: mine the targeted block\n- Right click: place the selected block\n- 1-9: select tool/item slot",
+    "source_task_sha256": "0d404c506194e8ac2bc6764130db7e9454c41581b380c3482ca209f62da0680d"
+  },
+  {
+    "task_id": "18_05",
+    "game_id": "18_minecraft-clone-glm",
+    "game_url_suffix": "",
+    "task": "Secure at least 5 iron ore blocks in this run.\nHead underground, locate iron ore blocks, and mine them once they are lined up in view.\n\n\nRules:\nYou are playing a Minecraft-style first-person sandbox survival game.\n\n## Game Objective\n- Gather resources by breaking blocks.\n- Move around and mine nearby blocks efficiently.\n\n## Game Rules\n- Hold the left mouse button on the targeted block to mine it. Hold-mining is accelerated in benchmark mode.\n- Place blocks with the right mouse button. A short left click can also place, but right click is the reliable placement action for this benchmark.\n- Move around and jump to navigate the terrain.\n- Aim at different targeting blocks and get close to them to mine them.\n- The starting hotbar is: slot 1 wood logs, slot 2 wood planks, slot 3 cobblestone, slot 4 torches, slot 5 dirt. Newly collected items can fill later hotbar slots.\n\n\nCharacter: player\nGame controls:\n- up: move forward\n- down: move backward\n- left: strafe left\n- right: strafe right\n- space: jump\n- Mouse move: look around / turn camera\n- Left click and hold: mine the targeted block\n- Right click: place the selected block\n- 1-9: select tool/item slot",
+    "source_task_sha256": "844461c90e82c28899441b5b010515e6f498d6dff0dbfd8422b6be1dcb1eec24"
+  },
+  {
+    "task_id": "19_01",
+    "game_id": "19_minesweeper",
+    "game_url_suffix": "",
+    "task": "Reveal at least 58 safe cells without hitting a mine.\nOpen cells that are most likely safe from nearby number clues.\n\n\nRules:\nYou are playing Minesweeper, a logic puzzle.\n\n## Game Objective\n- Reveal every safe cell without detonating a mine.\n\n## Game Rules\n- Left click a cell reveals it; right click flags a mine.\n- A number shows how many mines are adjacent to that cell.\n- Clicking a mine ends the game.\n\n\nCharacter: player\nGame controls:\n- Mouse left click: Reveal a cell\n- Mouse right click: Flag a mine",
+    "source_task_sha256": "8c1ce30cf18f01b12c5500c66b830e6b9644793cde271ca6078e054eb13efff6"
+  },
+  {
+    "task_id": "19_02",
+    "game_id": "19_minesweeper",
+    "game_url_suffix": "",
+    "task": "Reveal at least 63 safe cells without triggering a mine.\nUse clue numbers to identify safer openings near board edges.\n\n\nRules:\nYou are playing Minesweeper, a logic puzzle.\n\n## Game Objective\n- Reveal every safe cell without detonating a mine.\n\n## Game Rules\n- Left click a cell reveals it; right click flags a mine.\n- A number shows how many mines are adjacent to that cell.\n- Clicking a mine ends the game.\n\n\nCharacter: player\nGame controls:\n- Mouse left click: Reveal a cell\n- Mouse right click: Flag a mine",
+    "source_task_sha256": "66c5efe1a60c9e80c68c3777e1ab934e76e80934f80ffe2dd63b4d129a71c9ee"
+  },
+  {
+    "task_id": "19_03",
+    "game_id": "19_minesweeper",
+    "game_url_suffix": "",
+    "task": "Reveal at least 68 safe cells without detonating a mine.\nRead number clues carefully and clear around likely mine zones.\n\n\nRules:\nYou are playing Minesweeper, a logic puzzle.\n\n## Game Objective\n- Reveal every safe cell without detonating a mine.\n\n## Game Rules\n- Left click a cell reveals it; right click flags a mine.\n- A number shows how many mines are adjacent to that cell.\n- Clicking a mine ends the game.\n\n\nCharacter: player\nGame controls:\n- Mouse left click: Reveal a cell\n- Mouse right click: Flag a mine",
+    "source_task_sha256": "0356bb355b3a0e4697979194caf6acbb12deafd2fad46a9cfdb4dfdcd5ebbb88"
+  },
+  {
+    "task_id": "19_04",
+    "game_id": "19_minesweeper",
+    "game_url_suffix": "",
+    "task": "Correctly flag at least 3 mines using right-click.\nInfer mine locations from numbers, then place accurate flags.\n\n\nRules:\nYou are playing Minesweeper, a logic puzzle.\n\n## Game Objective\n- Reveal every safe cell without detonating a mine.\n\n## Game Rules\n- Left click a cell reveals it; right click flags a mine.\n- A number shows how many mines are adjacent to that cell.\n- Clicking a mine ends the game.\n\n\nCharacter: player\nGame controls:\n- Mouse left click: Reveal a cell\n- Mouse right click: Flag a mine",
+    "source_task_sha256": "ab0f503b453b1d88a1632df756c251ab110568ebc7137662843640aae06cc2ce"
+  },
+  {
+    "task_id": "19_05",
+    "game_id": "19_minesweeper",
+    "game_url_suffix": "",
+    "task": "Correctly flag at least 6 mines using right-click.\nReveal for extra clues first, then deduce and mark mine positions.\n\n\nRules:\nYou are playing Minesweeper, a logic puzzle.\n\n## Game Objective\n- Reveal every safe cell without detonating a mine.\n\n## Game Rules\n- Left click a cell reveals it; right click flags a mine.\n- A number shows how many mines are adjacent to that cell.\n- Clicking a mine ends the game.\n\n\nCharacter: player\nGame controls:\n- Mouse left click: Reveal a cell\n- Mouse right click: Flag a mine",
+    "source_task_sha256": "654a2752e0dacce4318bde9148af0a0e4a1873295068ac22882af5f85d5f0557"
+  },
+  {
+    "task_id": "20_01",
+    "game_id": "20_monkey-mart",
+    "game_url_suffix": "",
+    "task": "Run the shop by collecting bananas and corn, restocking them, and earning 30 coins.\n\n\nRules:\nYou are playing Monkey Mart, a store management game.\n\n## Game Objective\n- Stock shelves, serve customers, and earn money.\n- Expand the store by unlocking new stations and upgrades.\n\n## Game Rules\n- Move next to stations to automatically harvest crops, carry goods, and restock shelves.\n- Customers show the item they want above their heads; keep the matching shelf stocked so they can buy it.\n- Customers pay you at the counter after they got the wanted items, go to the counter to serve them and collect the cash.\n- The assistant monkey can help with harverst, you may need to wake the assistant regularly.\n- Alternate between harvesting, restocking, and serving; use earnings to unlock more stations and assistants.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right\n- wait: Stay still to wait for assistants and customers",
+    "source_task_sha256": "2e759702a1a3b0d2e96b0055d77245890e32da759aee7a22ca944b0380d712b8"
+  },
+  {
+    "task_id": "20_02",
+    "game_id": "20_monkey-mart",
+    "game_url_suffix": "",
+    "task": "Keep the banana and corn supply stocked, then finish with 50 coins earned.\n\n\nRules:\nYou are playing Monkey Mart, a store management game.\n\n## Game Objective\n- Stock shelves, serve customers, and earn money.\n- Expand the store by unlocking new stations and upgrades.\n\n## Game Rules\n- Move next to stations to automatically harvest crops, carry goods, and restock shelves.\n- Customers show the item they want above their heads; keep the matching shelf stocked so they can buy it.\n- Customers pay you at the counter after they got the wanted items, go to the counter to serve them and collect the cash.\n- The assistant monkey can help with harverst, you may need to wake the assistant regularly.\n- Alternate between harvesting, restocking, and serving; use earnings to unlock more stations and assistants.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right\n- wait: Stay still to wait for assistants and customers",
+    "source_task_sha256": "c31a3ae08647aca97571ef51e141d6118147cff1540fe2f96894c59337458343"
+  },
+  {
+    "task_id": "20_03",
+    "game_id": "20_monkey-mart",
+    "game_url_suffix": "",
+    "task": "Manage the banana and corn loop until you have earned 75 coins.\n\n\nRules:\nYou are playing Monkey Mart, a store management game.\n\n## Game Objective\n- Stock shelves, serve customers, and earn money.\n- Expand the store by unlocking new stations and upgrades.\n\n## Game Rules\n- Move next to stations to automatically harvest crops, carry goods, and restock shelves.\n- Customers show the item they want above their heads; keep the matching shelf stocked so they can buy it.\n- Customers pay you at the counter after they got the wanted items, go to the counter to serve them and collect the cash.\n- The assistant monkey can help with harverst, you may need to wake the assistant regularly.\n- Alternate between harvesting, restocking, and serving; use earnings to unlock more stations and assistants.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right\n- wait: Stay still to wait for assistants and customers",
+    "source_task_sha256": "1fd3b9e4a26f966202ba14265dfb8a5e49f028d44a6b231438e089108f186a83"
+  },
+  {
+    "task_id": "20_04",
+    "game_id": "20_monkey-mart",
+    "game_url_suffix": "",
+    "task": "Harvest bananas and corn, refill the stands, and keep operating until you have\nearned 100 coins in this run.\n\n\nRules:\nYou are playing Monkey Mart, a store management game.\n\n## Game Objective\n- Stock shelves, serve customers, and earn money.\n- Expand the store by unlocking new stations and upgrades.\n\n## Game Rules\n- Move next to stations to automatically harvest crops, carry goods, and restock shelves.\n- Customers show the item they want above their heads; keep the matching shelf stocked so they can buy it.\n- Customers pay you at the counter after they got the wanted items, go to the counter to serve them and collect the cash.\n- The assistant monkey can help with harverst, you may need to wake the assistant regularly.\n- Alternate between harvesting, restocking, and serving; use earnings to unlock more stations and assistants.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right\n- wait: Stay still to wait for assistants and customers",
+    "source_task_sha256": "da0a709183cf7ee875d2e8220d26357f216c3cc3cc78fe424160b3badd7d7159"
+  },
+  {
+    "task_id": "20_05",
+    "game_id": "20_monkey-mart",
+    "game_url_suffix": "",
+    "task": "Operate the store efficiently by collecting and restocking bananas and corn until you earn 130 coins.\n\n\nRules:\nYou are playing Monkey Mart, a store management game.\n\n## Game Objective\n- Stock shelves, serve customers, and earn money.\n- Expand the store by unlocking new stations and upgrades.\n\n## Game Rules\n- Move next to stations to automatically harvest crops, carry goods, and restock shelves.\n- Customers show the item they want above their heads; keep the matching shelf stocked so they can buy it.\n- Customers pay you at the counter after they got the wanted items, go to the counter to serve them and collect the cash.\n- The assistant monkey can help with harverst, you may need to wake the assistant regularly.\n- Alternate between harvesting, restocking, and serving; use earnings to unlock more stations and assistants.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right\n- wait: Stay still to wait for assistants and customers",
+    "source_task_sha256": "a903914161b9c3705b5e9eed6e0bf1733fee9add2ed33996bf3598c8960e0f15"
+  },
+  {
+    "task_id": "21_01",
+    "game_id": "21_ns-shaft",
+    "game_url_suffix": "",
+    "task": "Survive at least 6 seconds after the run starts.\nMake small left-right corrections to stay on safe platforms.\n\n\nRules:\nYou are playing NS-Shaft, a falling platform game.\n\n## Game Objective\n- Descend as far as possible by landing on platforms.\n- Avoid hazards while keeping your character alive.\n\n## Game Rules\n- The character falls downward automatically.\n- Move left/right to land on platforms.\n- Life decreases when you touch the pillards\n- You will die if you fall all the way to the bottom or run out of the life.\n\n\nCharacter: player\nGame controls:\n- Arrow Left/Right: Move left/right",
+    "source_task_sha256": "155c2e6cc2acaae4391f7366b41d833f24ceb277abc45d8095a0acd2dc6c4555"
+  },
+  {
+    "task_id": "21_02",
+    "game_id": "21_ns-shaft",
+    "game_url_suffix": "",
+    "task": "Survive for at least 10 seconds in one attempt.\nKeep positioning controlled and avoid spike contact while descending.\n\n\nRules:\nYou are playing NS-Shaft, a falling platform game.\n\n## Game Objective\n- Descend as far as possible by landing on platforms.\n- Avoid hazards while keeping your character alive.\n\n## Game Rules\n- The character falls downward automatically.\n- Move left/right to land on platforms.\n- Life decreases when you touch the pillards\n- You will die if you fall all the way to the bottom or run out of the life.\n\n\nCharacter: player\nGame controls:\n- Arrow Left/Right: Move left/right",
+    "source_task_sha256": "6efb9b4dc7b183add8b31a6da6f5f5669ab8c00382bdc97511443758c45d0457"
+  },
+  {
+    "task_id": "21_03",
+    "game_id": "21_ns-shaft",
+    "game_url_suffix": "",
+    "task": "Survive for at least 15 seconds without game over.\nMaintain clean platform transitions and recover quickly from bad landings.\n\n\nRules:\nYou are playing NS-Shaft, a falling platform game.\n\n## Game Objective\n- Descend as far as possible by landing on platforms.\n- Avoid hazards while keeping your character alive.\n\n## Game Rules\n- The character falls downward automatically.\n- Move left/right to land on platforms.\n- Life decreases when you touch the pillards\n- You will die if you fall all the way to the bottom or run out of the life.\n\n\nCharacter: player\nGame controls:\n- Arrow Left/Right: Move left/right",
+    "source_task_sha256": "1a77a23aacf4b284d6075a1098d872ff27785cd3deed2f5c005f8fe6491139a8"
+  },
+  {
+    "task_id": "21_04",
+    "game_id": "21_ns-shaft",
+    "game_url_suffix": "",
+    "task": "Stay alive for at least 20 seconds while descending.\nRead platform patterns early and avoid forced late corrections.\n\n\nRules:\nYou are playing NS-Shaft, a falling platform game.\n\n## Game Objective\n- Descend as far as possible by landing on platforms.\n- Avoid hazards while keeping your character alive.\n\n## Game Rules\n- The character falls downward automatically.\n- Move left/right to land on platforms.\n- Life decreases when you touch the pillards\n- You will die if you fall all the way to the bottom or run out of the life.\n\n\nCharacter: player\nGame controls:\n- Arrow Left/Right: Move left/right",
+    "source_task_sha256": "2a9e4c2840e8116b13fe2bdaa6093ced95014cc85702a572f6ad3347ee13be90"
+  },
+  {
+    "task_id": "21_05",
+    "game_id": "21_ns-shaft",
+    "game_url_suffix": "",
+    "task": "Survive for at least 25 seconds in one continuous run.\nKeep long-horizon platform routing with stable health management.\n\n\nRules:\nYou are playing NS-Shaft, a falling platform game.\n\n## Game Objective\n- Descend as far as possible by landing on platforms.\n- Avoid hazards while keeping your character alive.\n\n## Game Rules\n- The character falls downward automatically.\n- Move left/right to land on platforms.\n- Life decreases when you touch the pillards\n- You will die if you fall all the way to the bottom or run out of the life.\n\n\nCharacter: player\nGame controls:\n- Arrow Left/Right: Move left/right",
+    "source_task_sha256": "82939624362e1bf3bf744f3ecdf7a29f042f66e90c49c84be190f19abb67a836"
+  },
+  {
+    "task_id": "22_01",
+    "game_id": "22_ovo",
+    "game_url_suffix": "?level=1",
+    "task": "Begin on level 1.\nFinish level 1 and advance to level 2 or higher.\n\n\nRules:\nYou are playing OVO, a fast platformer with traps.\n\n## Game Objective\n- Reach the exit of each level.\n- Collect coins while avoiding hazards.\n\n## Game Rules\n- Avoid traps and pits.\n- When you go next to the wall, you can jump higher.\n- Jump on place and press down to smash the ground.\n\n\nCharacter: runner\nGame controls:\n- left / right: move left/right.\n- up: jump.\n- up + right / left: jump while moving right / left.\n- down: smash the ground.\n- down + right / left: slide right / left.",
+    "source_task_sha256": "f3c3031295ebbdc26d0a70f5fbd9be31467f31a7721e01207696c8853f2c3b13"
+  },
+  {
+    "task_id": "22_02",
+    "game_id": "22_ovo",
+    "game_url_suffix": "?level=1",
+    "task": "Start at level 1.\nPick up at least 1 coin before leaving level 1.\n\n\nRules:\nYou are playing OVO, a fast platformer with traps.\n\n## Game Objective\n- Reach the exit of each level.\n- Collect coins while avoiding hazards.\n\n## Game Rules\n- Avoid traps and pits.\n- When you go next to the wall, you can jump higher.\n- Jump on place and press down to smash the ground.\n\n\nCharacter: runner\nGame controls:\n- left / right: move left/right.\n- up: jump.\n- up + right / left: jump while moving right / left.\n- down: smash the ground.\n- down + right / left: slide right / left.",
+    "source_task_sha256": "3e2c8f1bd9ebd8e9ebe4f55b551aad4608ca5cf925e31abd62301d79ff6b5f46"
+  },
+  {
+    "task_id": "22_03",
+    "game_id": "22_ovo",
+    "game_url_suffix": "?level=2",
+    "task": "Spawn on level 2.\nComplete level 2 and move on to level 3 or higher.\n\n\nRules:\nYou are playing OVO, a fast platformer with traps.\n\n## Game Objective\n- Reach the exit of each level.\n- Collect coins while avoiding hazards.\n\n## Game Rules\n- Avoid traps and pits.\n- When you go next to the wall, you can jump higher.\n- Jump on place and press down to smash the ground.\n\n\nCharacter: runner\nGame controls:\n- left / right: move left/right.\n- up: jump.\n- up + right / left: jump while moving right / left.\n- down: smash the ground.\n- down + right / left: slide right / left.",
+    "source_task_sha256": "77277b49aaefc6d7ca9dcd3237c62484b139d79699c18d63fc39fb9a31e4aaea"
+  },
+  {
+    "task_id": "22_04",
+    "game_id": "22_ovo",
+    "game_url_suffix": "?level=2",
+    "task": "enter at level 2.\nCollect at least 1 coin while in level 2.\n\n\nRules:\nYou are playing OVO, a fast platformer with traps.\n\n## Game Objective\n- Reach the exit of each level.\n- Collect coins while avoiding hazards.\n\n## Game Rules\n- Avoid traps and pits.\n- When you go next to the wall, you can jump higher.\n- Jump on place and press down to smash the ground.\n\n\nCharacter: runner\nGame controls:\n- left / right: move left/right.\n- up: jump.\n- up + right / left: jump while moving right / left.\n- down: smash the ground.\n- down + right / left: slide right / left.",
+    "source_task_sha256": "3b0f6a21ec986e59b591023d0d425cfda87b421ba5af8988c1954d57fc700c9a"
+  },
+  {
+    "task_id": "22_05",
+    "game_id": "22_ovo",
+    "game_url_suffix": "?level=3",
+    "task": "Load into level 3.\nClear level 3 and reach level 4 or higher.\n\n\nRules:\nYou are playing OVO, a fast platformer with traps.\n\n## Game Objective\n- Reach the exit of each level.\n- Collect coins while avoiding hazards.\n\n## Game Rules\n- Avoid traps and pits.\n- When you go next to the wall, you can jump higher.\n- Jump on place and press down to smash the ground.\n\n\nCharacter: runner\nGame controls:\n- left / right: move left/right.\n- up: jump.\n- up + right / left: jump while moving right / left.\n- down: smash the ground.\n- down + right / left: slide right / left.",
+    "source_task_sha256": "ef3520e3c16f819930d7872714b96cf0d2710dcb28a79a65ab5fbc0346b8024c"
+  },
+  {
+    "task_id": "23_01",
+    "game_id": "23_pacman",
+    "game_url_suffix": "",
+    "task": "Score at least 600 points by clearing pellets.\nAvoid ghost contact and keep moving through open lanes.\n\n\nRules:\nYou are playing Pac-Man, a maze chase game.\n\n## Game Objective\n- Eat all pellets in the maze.\n- Avoid ghosts, or eat them after grabbing a power pellet.\n\nTIPS:\n- Use corridors to bait ghosts into corners.\n- Save power pellets for tricky sections.\n\n\nCharacter: pacman\nGame controls:\n- up: Move up through the maze\n- down: Move down through the maze\n- left: Move left through the maze\n- right: Move right through the maze",
+    "source_task_sha256": "539cfed3126be5b70d14a3ca7ca6fbe5c072177b16002c657c04712799e146c8"
+  },
+  {
+    "task_id": "23_02",
+    "game_id": "23_pacman",
+    "game_url_suffix": "",
+    "task": "Score at least 1000 points in one run.\nUse power pellets to create safer routes and avoid getting cornered.\n\n\nRules:\nYou are playing Pac-Man, a maze chase game.\n\n## Game Objective\n- Eat all pellets in the maze.\n- Avoid ghosts, or eat them after grabbing a power pellet.\n\nTIPS:\n- Use corridors to bait ghosts into corners.\n- Save power pellets for tricky sections.\n\n\nCharacter: pacman\nGame controls:\n- up: Move up through the maze\n- down: Move down through the maze\n- left: Move left through the maze\n- right: Move right through the maze",
+    "source_task_sha256": "5df73d537087fd70b77074bdb4a96d5dcf8971b4f011ea79668220ca626d0d65"
+  },
+  {
+    "task_id": "23_03",
+    "game_id": "23_pacman",
+    "game_url_suffix": "",
+    "task": "Score at least 1500 points without ending the run early.\nChain pellet clears with disciplined ghost avoidance.\n\n\nRules:\nYou are playing Pac-Man, a maze chase game.\n\n## Game Objective\n- Eat all pellets in the maze.\n- Avoid ghosts, or eat them after grabbing a power pellet.\n\nTIPS:\n- Use corridors to bait ghosts into corners.\n- Save power pellets for tricky sections.\n\n\nCharacter: pacman\nGame controls:\n- up: Move up through the maze\n- down: Move down through the maze\n- left: Move left through the maze\n- right: Move right through the maze",
+    "source_task_sha256": "7182b4a04f081f526c3fcb38ab900aa3feade85c6c7356d1a1dd88c2fb840fee"
+  },
+  {
+    "task_id": "23_04",
+    "game_id": "23_pacman",
+    "game_url_suffix": "",
+    "task": "Reach at least 2000 points in one continuous run.\nBalance pellet routing and ghost spacing to protect remaining lives.\n\n\nRules:\nYou are playing Pac-Man, a maze chase game.\n\n## Game Objective\n- Eat all pellets in the maze.\n- Avoid ghosts, or eat them after grabbing a power pellet.\n\nTIPS:\n- Use corridors to bait ghosts into corners.\n- Save power pellets for tricky sections.\n\n\nCharacter: pacman\nGame controls:\n- up: Move up through the maze\n- down: Move down through the maze\n- left: Move left through the maze\n- right: Move right through the maze",
+    "source_task_sha256": "df400b158acbd1c392cc821246df680ac2c8886d4d1695a90ffb31bf9decae23"
+  },
+  {
+    "task_id": "23_05",
+    "game_id": "23_pacman",
+    "game_url_suffix": "",
+    "task": "Push score to at least 2500 before terminal failure.\nKeep route discipline through denser ghost pressure and maze loops.\n\n\nRules:\nYou are playing Pac-Man, a maze chase game.\n\n## Game Objective\n- Eat all pellets in the maze.\n- Avoid ghosts, or eat them after grabbing a power pellet.\n\nTIPS:\n- Use corridors to bait ghosts into corners.\n- Save power pellets for tricky sections.\n\n\nCharacter: pacman\nGame controls:\n- up: Move up through the maze\n- down: Move down through the maze\n- left: Move left through the maze\n- right: Move right through the maze",
+    "source_task_sha256": "352523db4f8b7a0e21237c11697f2c76aa2988bed759bc0686c84accdba581de"
+  },
+  {
+    "task_id": "24_01",
+    "game_id": "24_restless-wing-syndrome",
+    "game_url_suffix": "?level=1",
+    "task": "Complete the level by reaching the bread.\nSteer carefully with auto-flap timing and avoid spike hazards.\n\n\nRules:\nYou are playing Restless Wing Syndrome, a platformer with automatic flaps.\n\n## Game Objective\n- Reach the exit (looks like a bread) of each level.\n- Avoid spikes and hazards.\n\n## Game Rules\n- The bird flaps automatically on a timer (flap meter at top left). The flap meter will automatically decrease, one cell at a time. When it is empty, the bird will automatically jump up then the meter will be recharged to full. You can observe the flap meter to time your movements.\n- You can move left or right to steer mid-air.\n- Hold Up to glide (slow descent) in the air.\n- Use Up+Left or Up+Right to glide diagonally.\n- Most of the time the movements are achieved by gliding with appropriate direction.\n\n\nCharacter: player\nGame controls:\n- left / right: Move left/right\n- up: Hold to glide (slow descent, uses flap meter)\n- up + left / right: Glide while moving left/right",
+    "source_task_sha256": "b03d946a161f91f312705f7f334da5afd8e3bb6bc29fe5ac1ace444c3f21e7a1"
+  },
+  {
+    "task_id": "24_02",
+    "game_id": "24_restless-wing-syndrome",
+    "game_url_suffix": "?level=2",
+    "task": "Collect the floating piece of toast.\nMake small left-right corrections and avoid rushing into spikes.\n\n\nRules:\nYou are playing Restless Wing Syndrome, a platformer with automatic flaps.\n\n## Game Objective\n- Reach the exit (looks like a bread) of each level.\n- Avoid spikes and hazards.\n\n## Game Rules\n- The bird flaps automatically on a timer (flap meter at top left). The flap meter will automatically decrease, one cell at a time. When it is empty, the bird will automatically jump up then the meter will be recharged to full. You can observe the flap meter to time your movements.\n- You can move left or right to steer mid-air.\n- Hold Up to glide (slow descent) in the air.\n- Use Up+Left or Up+Right to glide diagonally.\n- Most of the time the movements are achieved by gliding with appropriate direction.\n\n\nCharacter: player\nGame controls:\n- left / right: Move left/right\n- up: Hold to glide (slow descent, uses flap meter)\n- up + left / right: Glide while moving left/right",
+    "source_task_sha256": "3ca43268020dc769c3f9b9b76515a0d34352ff9c5d9153e79e8f118c6178e362"
+  },
+  {
+    "task_id": "24_03",
+    "game_id": "24_restless-wing-syndrome",
+    "game_url_suffix": "?level=3",
+    "task": "Reach the bread as the exit of the level.\nMaintain steady rhythm, avoid spike contact, and keep recovery space after each flap.\n\n\nRules:\nYou are playing Restless Wing Syndrome, a platformer with automatic flaps.\n\n## Game Objective\n- Reach the exit (looks like a bread) of each level.\n- Avoid spikes and hazards.\n\n## Game Rules\n- The bird flaps automatically on a timer (flap meter at top left). The flap meter will automatically decrease, one cell at a time. When it is empty, the bird will automatically jump up then the meter will be recharged to full. You can observe the flap meter to time your movements.\n- You can move left or right to steer mid-air.\n- Hold Up to glide (slow descent) in the air.\n- Use Up+Left or Up+Right to glide diagonally.\n- Most of the time the movements are achieved by gliding with appropriate direction.\n\n\nCharacter: player\nGame controls:\n- left / right: Move left/right\n- up: Hold to glide (slow descent, uses flap meter)\n- up + left / right: Glide while moving left/right",
+    "source_task_sha256": "04c759938940ce1408ed1bd09661ac7bed31fab4054e63cb725d470f7e936ec9"
+  },
+  {
+    "task_id": "24_04",
+    "game_id": "24_restless-wing-syndrome",
+    "game_url_suffix": "?level=4",
+    "task": "Navigate the bird toward the toast in level 4.\nHold stable corridor control through longer hazard sections without taking spike damage.\n\n\nRules:\nYou are playing Restless Wing Syndrome, a platformer with automatic flaps.\n\n## Game Objective\n- Reach the exit (looks like a bread) of each level.\n- Avoid spikes and hazards.\n\n## Game Rules\n- The bird flaps automatically on a timer (flap meter at top left). The flap meter will automatically decrease, one cell at a time. When it is empty, the bird will automatically jump up then the meter will be recharged to full. You can observe the flap meter to time your movements.\n- You can move left or right to steer mid-air.\n- Hold Up to glide (slow descent) in the air.\n- Use Up+Left or Up+Right to glide diagonally.\n- Most of the time the movements are achieved by gliding with appropriate direction.\n\n\nCharacter: player\nGame controls:\n- left / right: Move left/right\n- up: Hold to glide (slow descent, uses flap meter)\n- up + left / right: Glide while moving left/right",
+    "source_task_sha256": "cb37d07023a01bed5ee641e2bdfe8438af4db7328badc1775872064db68202b5"
+  },
+  {
+    "task_id": "24_05",
+    "game_id": "24_restless-wing-syndrome",
+    "game_url_suffix": "?level=5",
+    "task": "Control the bird to touch the bread item.\nMaintain precise micro-corrections and avoid dying in the tight gaps.\n\n\nRules:\nYou are playing Restless Wing Syndrome, a platformer with automatic flaps.\n\n## Game Objective\n- Reach the exit (looks like a bread) of each level.\n- Avoid spikes and hazards.\n\n## Game Rules\n- The bird flaps automatically on a timer (flap meter at top left). The flap meter will automatically decrease, one cell at a time. When it is empty, the bird will automatically jump up then the meter will be recharged to full. You can observe the flap meter to time your movements.\n- You can move left or right to steer mid-air.\n- Hold Up to glide (slow descent) in the air.\n- Use Up+Left or Up+Right to glide diagonally.\n- Most of the time the movements are achieved by gliding with appropriate direction.\n\n\nCharacter: player\nGame controls:\n- left / right: Move left/right\n- up: Hold to glide (slow descent, uses flap meter)\n- up + left / right: Glide while moving left/right",
+    "source_task_sha256": "ede7e463b0ea7b3b0bbd9613bb447e197f10f3da7f2dad8fbce82ccc52c55a4b"
+  },
+  {
+    "task_id": "25_01",
+    "game_id": "25_rocket-league-2d",
+    "game_url_suffix": "?player=1",
+    "task": "Score at least 1 goal without conceding a goal.\n\n\nRules:\nYou are playing Rocket League 2D, a side-view car soccer game.\n\n## Game Objective\n- Score goals by hitting the ball into the opponent's net.\n- Prevent the opponent from scoring.\n\n## Game Rules\n- Drive left/right to position your car.\n- Jump to hit the ball in the air.\n- Boost can increase speed if available.\n\n\nCharacter: player\nGame controls:\n- A/D: Drive\n- W: Jump\n- space: Boost or speed up (if available)",
+    "source_task_sha256": "148bdb4b357e320d50c29ab4bae86a097a4457525dc5f5c7a578aa7b83f253e8"
+  },
+  {
+    "task_id": "25_02",
+    "game_id": "25_rocket-league-2d",
+    "game_url_suffix": "?player=1",
+    "task": "Score at least 2 goals without conceding a goal.\n\n\nRules:\nYou are playing Rocket League 2D, a side-view car soccer game.\n\n## Game Objective\n- Score goals by hitting the ball into the opponent's net.\n- Prevent the opponent from scoring.\n\n## Game Rules\n- Drive left/right to position your car.\n- Jump to hit the ball in the air.\n- Boost can increase speed if available.\n\n\nCharacter: player\nGame controls:\n- A/D: Drive\n- W: Jump\n- space: Boost or speed up (if available)",
+    "source_task_sha256": "3bcb622ee122335736fe2a1831f9c50ef18f6c0576b6276aac7f3e12f46d0e77"
+  },
+  {
+    "task_id": "25_03",
+    "game_id": "25_rocket-league-2d",
+    "game_url_suffix": "?player=1",
+    "task": "Score at least 3 goals without conceding a goal.\n\n\nRules:\nYou are playing Rocket League 2D, a side-view car soccer game.\n\n## Game Objective\n- Score goals by hitting the ball into the opponent's net.\n- Prevent the opponent from scoring.\n\n## Game Rules\n- Drive left/right to position your car.\n- Jump to hit the ball in the air.\n- Boost can increase speed if available.\n\n\nCharacter: player\nGame controls:\n- A/D: Drive\n- W: Jump\n- space: Boost or speed up (if available)",
+    "source_task_sha256": "6fb8482ee4241f11e5b710ef06a2b281ab52d3be8dc829ea24c6e4c7c6dfc9dc"
+  },
+  {
+    "task_id": "25_04",
+    "game_id": "25_rocket-league-2d",
+    "game_url_suffix": "?player=1",
+    "task": "Score at least 4 goals without conceding a goal.\n\n\nRules:\nYou are playing Rocket League 2D, a side-view car soccer game.\n\n## Game Objective\n- Score goals by hitting the ball into the opponent's net.\n- Prevent the opponent from scoring.\n\n## Game Rules\n- Drive left/right to position your car.\n- Jump to hit the ball in the air.\n- Boost can increase speed if available.\n\n\nCharacter: player\nGame controls:\n- A/D: Drive\n- W: Jump\n- space: Boost or speed up (if available)",
+    "source_task_sha256": "1dccd52f191f92cbba5f3d724bf464a0188fb543884abf50be67c83d276bf2b2"
+  },
+  {
+    "task_id": "25_05",
+    "game_id": "25_rocket-league-2d",
+    "game_url_suffix": "?player=1",
+    "task": "Score at least 5 goals without conceding a goal.\n\n\nRules:\nYou are playing Rocket League 2D, a side-view car soccer game.\n\n## Game Objective\n- Score goals by hitting the ball into the opponent's net.\n- Prevent the opponent from scoring.\n\n## Game Rules\n- Drive left/right to position your car.\n- Jump to hit the ball in the air.\n- Boost can increase speed if available.\n\n\nCharacter: player\nGame controls:\n- A/D: Drive\n- W: Jump\n- space: Boost or speed up (if available)",
+    "source_task_sha256": "da4786c9e4a29e5c0b9663bd18d9a031998b676302dbef9d1743dbf7a622d3d8"
+  },
+  {
+    "task_id": "26_01",
+    "game_id": "26_run-3",
+    "game_url_suffix": "?level=infinite",
+    "task": "Start the run.\nReach at least 50 distance without falling.\n\n\nRules:\nYou are playing Run 3, an endless tunnel runner.\n\n## Game Objective\n- Survive as long as possible while navigating gaps.\n\n## Game Rules\n- Strafe left/right to navigate gaps.\n- Jump to cross gaps.\n\n\nCharacter: runner\nGame controls:\n- left / right: strafe left/right.\n- up or space: jump.",
+    "source_task_sha256": "53d7c2abc0680f4e3a6ed843c8f1d5e4ab664e4a31b4c3647527c6846d3bc1b3"
+  },
+  {
+    "task_id": "26_02",
+    "game_id": "26_run-3",
+    "game_url_suffix": "?level=infinite",
+    "task": "Start the run.\nReach at least 150 distance without falling.\n\n\nRules:\nYou are playing Run 3, an endless tunnel runner.\n\n## Game Objective\n- Survive as long as possible while navigating gaps.\n\n## Game Rules\n- Strafe left/right to navigate gaps.\n- Jump to cross gaps.\n\n\nCharacter: runner\nGame controls:\n- left / right: strafe left/right.\n- up or space: jump.",
+    "source_task_sha256": "cf026354389af1ae3bc160cc4951250ac4087f269b250361b4bac2625b60379b"
+  },
+  {
+    "task_id": "26_03",
+    "game_id": "26_run-3",
+    "game_url_suffix": "?level=infinite",
+    "task": "Start the run.\nReach at least 300 distance without falling.\n\n\nRules:\nYou are playing Run 3, an endless tunnel runner.\n\n## Game Objective\n- Survive as long as possible while navigating gaps.\n\n## Game Rules\n- Strafe left/right to navigate gaps.\n- Jump to cross gaps.\n\n\nCharacter: runner\nGame controls:\n- left / right: strafe left/right.\n- up or space: jump.",
+    "source_task_sha256": "663d6ad9377bb5efa9c0c4b3c57f83fd19f40f8831cf3e106f3ad067d255dba9"
+  },
+  {
+    "task_id": "26_04",
+    "game_id": "26_run-3",
+    "game_url_suffix": "?level=infinite",
+    "task": "Start the run.\nReach at least 450 distance without falling.\n\n\nRules:\nYou are playing Run 3, an endless tunnel runner.\n\n## Game Objective\n- Survive as long as possible while navigating gaps.\n\n## Game Rules\n- Strafe left/right to navigate gaps.\n- Jump to cross gaps.\n\n\nCharacter: runner\nGame controls:\n- left / right: strafe left/right.\n- up or space: jump.",
+    "source_task_sha256": "203697cc7818dcf9b6d576c16bd4c01178f6d7bf9390a0181a036ce430fabfc1"
+  },
+  {
+    "task_id": "26_05",
+    "game_id": "26_run-3",
+    "game_url_suffix": "?level=infinite",
+    "task": "Start the run.\nReach at least 600 distance without falling.\n\n\nRules:\nYou are playing Run 3, an endless tunnel runner.\n\n## Game Objective\n- Survive as long as possible while navigating gaps.\n\n## Game Rules\n- Strafe left/right to navigate gaps.\n- Jump to cross gaps.\n\n\nCharacter: runner\nGame controls:\n- left / right: strafe left/right.\n- up or space: jump.",
+    "source_task_sha256": "b357d1071c64481c81c979aad9b9f6826bd2f2dc03145c134cac27d4843d97fd"
+  },
+  {
+    "task_id": "27_01",
+    "game_id": "27_stack",
+    "game_url_suffix": "",
+    "task": "Successfully place at least 10 blocks.\n\n\nRules:\nYou are playing Stack, a timing-based block stacking game.\n\n## Game Objective\n- Drop each moving block to align with the stack.\n- Build the highest stack possible.\n\n## Game Rules\n- Each block moves back and forth over the tower.\n- Press space to drop the block.\n- Any overhanging part is cut off.\n- The game ends when there is no overlap.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the stack to move\n- space: Drop the block once",
+    "source_task_sha256": "9c9b083b7035801a6cb4d9b4df380021e8e18c194c5fe30b03dd2e5cd29db992"
+  },
+  {
+    "task_id": "27_02",
+    "game_id": "27_stack",
+    "game_url_suffix": "",
+    "task": "In a single run, land at least 15 blocks successfully.\n\n\nRules:\nYou are playing Stack, a timing-based block stacking game.\n\n## Game Objective\n- Drop each moving block to align with the stack.\n- Build the highest stack possible.\n\n## Game Rules\n- Each block moves back and forth over the tower.\n- Press space to drop the block.\n- Any overhanging part is cut off.\n- The game ends when there is no overlap.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the stack to move\n- space: Drop the block once",
+    "source_task_sha256": "1ad6e31c8f48bc28d07baa4f8e783971cea953e1eedd12fe432c6738b1211273"
+  },
+  {
+    "task_id": "27_03",
+    "game_id": "27_stack",
+    "game_url_suffix": "",
+    "task": "Build a streak of at least 20 successful block placements without a miss.\n\n\nRules:\nYou are playing Stack, a timing-based block stacking game.\n\n## Game Objective\n- Drop each moving block to align with the stack.\n- Build the highest stack possible.\n\n## Game Rules\n- Each block moves back and forth over the tower.\n- Press space to drop the block.\n- Any overhanging part is cut off.\n- The game ends when there is no overlap.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the stack to move\n- space: Drop the block once",
+    "source_task_sha256": "4fb439ecf9e1dc001d83ac3e82916956652175802446f2ce77ae70717d83040a"
+  },
+  {
+    "task_id": "27_04",
+    "game_id": "27_stack",
+    "game_url_suffix": "",
+    "task": "Place at least 25 blocks without missing a placement.\n\n\nRules:\nYou are playing Stack, a timing-based block stacking game.\n\n## Game Objective\n- Drop each moving block to align with the stack.\n- Build the highest stack possible.\n\n## Game Rules\n- Each block moves back and forth over the tower.\n- Press space to drop the block.\n- Any overhanging part is cut off.\n- The game ends when there is no overlap.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the stack to move\n- space: Drop the block once",
+    "source_task_sha256": "ba2848e56e47fd6548a64f29709ed270e61dc9e435bdf91d79bb6d41b0079e9a"
+  },
+  {
+    "task_id": "27_05",
+    "game_id": "27_stack",
+    "game_url_suffix": "",
+    "task": "Without missing a placement, stack at least 30 blocks successfully.\n\n\nRules:\nYou are playing Stack, a timing-based block stacking game.\n\n## Game Objective\n- Drop each moving block to align with the stack.\n- Build the highest stack possible.\n\n## Game Rules\n- Each block moves back and forth over the tower.\n- Press space to drop the block.\n- Any overhanging part is cut off.\n- The game ends when there is no overlap.\n\n\nCharacter: player\nGame controls:\n- Wait: Do nothing to wait the stack to move\n- space: Drop the block once",
+    "source_task_sha256": "0fc55c2f0dd401ee332df824d26ba897d5201d8a6efc3977ad59cef591aaab60"
+  },
+  {
+    "task_id": "28_01",
+    "game_id": "28_temple-run-2",
+    "game_url_suffix": "",
+    "task": "Reach at least 2000 score in one run with zero stumbles, deaths, or resurrects.\n\n\nRules:\nYou are playing Temple Run 2, an endless runner.\n\n## Game Objective\n- Survive as long as possible without missing turns and avoid obstacles.\n\n## Game Rules\n- Run along the paths and avoid obstacles.\n- Fail to turn, jump, or slide and you will die.\n\n\nCharacter: runner\nGame controls:\n- A/D: switch lanes and take turns.\n- W: jump.\n- S: slide.\n- space: start/continue.",
+    "source_task_sha256": "4c93344877eb6e919383712ffa2fb456e94ebeffb575e287ea7d2e6acabfc85b"
+  },
+  {
+    "task_id": "28_02",
+    "game_id": "28_temple-run-2",
+    "game_url_suffix": "",
+    "task": "Reach at least 4000 score in one run with zero stumbles, deaths, or resurrects.\n\n\nRules:\nYou are playing Temple Run 2, an endless runner.\n\n## Game Objective\n- Survive as long as possible without missing turns and avoid obstacles.\n\n## Game Rules\n- Run along the paths and avoid obstacles.\n- Fail to turn, jump, or slide and you will die.\n\n\nCharacter: runner\nGame controls:\n- A/D: switch lanes and take turns.\n- W: jump.\n- S: slide.\n- space: start/continue.",
+    "source_task_sha256": "1a7d0eb073ae5964d2c09ce967987882cefebb328fea03177d759d50bcd6b441"
+  },
+  {
+    "task_id": "28_03",
+    "game_id": "28_temple-run-2",
+    "game_url_suffix": "",
+    "task": "Reach at least 6000 score in one run with zero stumbles, deaths, or resurrects.\n\n\nRules:\nYou are playing Temple Run 2, an endless runner.\n\n## Game Objective\n- Survive as long as possible without missing turns and avoid obstacles.\n\n## Game Rules\n- Run along the paths and avoid obstacles.\n- Fail to turn, jump, or slide and you will die.\n\n\nCharacter: runner\nGame controls:\n- A/D: switch lanes and take turns.\n- W: jump.\n- S: slide.\n- space: start/continue.",
+    "source_task_sha256": "d17d2f2183313b37c1d22c23c93d1c01fe74dcff18cb2a2b943937b003b28393"
+  },
+  {
+    "task_id": "28_04",
+    "game_id": "28_temple-run-2",
+    "game_url_suffix": "",
+    "task": "Reach at least 8000 score in one run with zero stumbles, deaths, or resurrects.\n\n\nRules:\nYou are playing Temple Run 2, an endless runner.\n\n## Game Objective\n- Survive as long as possible without missing turns and avoid obstacles.\n\n## Game Rules\n- Run along the paths and avoid obstacles.\n- Fail to turn, jump, or slide and you will die.\n\n\nCharacter: runner\nGame controls:\n- A/D: switch lanes and take turns.\n- W: jump.\n- S: slide.\n- space: start/continue.",
+    "source_task_sha256": "7a067b9a1a62fad1b53d9ca9955ec1cd6f8b501b0534ae8c6b17a2141ff488af"
+  },
+  {
+    "task_id": "28_05",
+    "game_id": "28_temple-run-2",
+    "game_url_suffix": "",
+    "task": "Reach at least 10000 score in one run with zero stumbles, deaths, or resurrects.\n\n\nRules:\nYou are playing Temple Run 2, an endless runner.\n\n## Game Objective\n- Survive as long as possible without missing turns and avoid obstacles.\n\n## Game Rules\n- Run along the paths and avoid obstacles.\n- Fail to turn, jump, or slide and you will die.\n\n\nCharacter: runner\nGame controls:\n- A/D: switch lanes and take turns.\n- W: jump.\n- S: slide.\n- space: start/continue.",
+    "source_task_sha256": "fdd09de488ee7d442c8794147ed7665052d637fc018b716e8c16cc59d17fead0"
+  },
+  {
+    "task_id": "29_01",
+    "game_id": "29_tetris",
+    "game_url_suffix": "",
+    "task": "Score at least 200 points while keeping the board playable.\n\n\nRules:\nYou are playing Tetris, a falling block puzzle game.\n\n## Game Objective\n- Clear lines by filling them with blocks.\n- Prevent the stack from reaching the top and get the highest score possible.\n\n## Game Rules\n- Pieces fall from the top and can be moved or rotated.\n- Completed horizontal lines clear and score points.\n- The game ends when new pieces can no longer spawn or the stack reaches the top.\n\n\nCharacter: player\nGame controls:\n- left / right: move left or right\n- X: rotate clockwise\n- Z: rotate counter-clockwise\n- down: soft drop (move down slowly)\n- space: hard drop (move down to the bottom immediately)\n- C: Swap piece (swap the current piece with the next piece)",
+    "source_task_sha256": "11a7d7a0387bdf376365edc96e9f8ec36630a99135da6438964c9c4234eb5fb2"
+  },
+  {
+    "task_id": "29_02",
+    "game_id": "29_tetris",
+    "game_url_suffix": "",
+    "task": "In a single run, push your score to at least 300.\n\n\nRules:\nYou are playing Tetris, a falling block puzzle game.\n\n## Game Objective\n- Clear lines by filling them with blocks.\n- Prevent the stack from reaching the top and get the highest score possible.\n\n## Game Rules\n- Pieces fall from the top and can be moved or rotated.\n- Completed horizontal lines clear and score points.\n- The game ends when new pieces can no longer spawn or the stack reaches the top.\n\n\nCharacter: player\nGame controls:\n- left / right: move left or right\n- X: rotate clockwise\n- Z: rotate counter-clockwise\n- down: soft drop (move down slowly)\n- space: hard drop (move down to the bottom immediately)\n- C: Swap piece (swap the current piece with the next piece)",
+    "source_task_sha256": "36c2ed1de6f810b3944da9b321e3bc33a2aa904de80a8d385e0a09775f265783"
+  },
+  {
+    "task_id": "29_03",
+    "game_id": "29_tetris",
+    "game_url_suffix": "",
+    "task": "Reach 500 points or more without topping out.\n\n\nRules:\nYou are playing Tetris, a falling block puzzle game.\n\n## Game Objective\n- Clear lines by filling them with blocks.\n- Prevent the stack from reaching the top and get the highest score possible.\n\n## Game Rules\n- Pieces fall from the top and can be moved or rotated.\n- Completed horizontal lines clear and score points.\n- The game ends when new pieces can no longer spawn or the stack reaches the top.\n\n\nCharacter: player\nGame controls:\n- left / right: move left or right\n- X: rotate clockwise\n- Z: rotate counter-clockwise\n- down: soft drop (move down slowly)\n- space: hard drop (move down to the bottom immediately)\n- C: Swap piece (swap the current piece with the next piece)",
+    "source_task_sha256": "f23399a9aff1ea24e44515559507e6bfcca90b7475ac078f6b949bf09275b93b"
+  },
+  {
+    "task_id": "29_04",
+    "game_id": "29_tetris",
+    "game_url_suffix": "",
+    "task": "Hit at least 500 score and avoid a top-out.\n\n\nRules:\nYou are playing Tetris, a falling block puzzle game.\n\n## Game Objective\n- Clear lines by filling them with blocks.\n- Prevent the stack from reaching the top and get the highest score possible.\n\n## Game Rules\n- Pieces fall from the top and can be moved or rotated.\n- Completed horizontal lines clear and score points.\n- The game ends when new pieces can no longer spawn or the stack reaches the top.\n\n\nCharacter: player\nGame controls:\n- left / right: move left or right\n- X: rotate clockwise\n- Z: rotate counter-clockwise\n- down: soft drop (move down slowly)\n- space: hard drop (move down to the bottom immediately)\n- C: Swap piece (swap the current piece with the next piece)",
+    "source_task_sha256": "f05cd5d94cba84fa2e141bd3635356cceb5cd2c4e11cc7f4c310326c21dd6d4a"
+  },
+  {
+    "task_id": "29_05",
+    "game_id": "29_tetris",
+    "game_url_suffix": "",
+    "task": "Climb to at least 600 score while still preventing a top-out.\n\n\nRules:\nYou are playing Tetris, a falling block puzzle game.\n\n## Game Objective\n- Clear lines by filling them with blocks.\n- Prevent the stack from reaching the top and get the highest score possible.\n\n## Game Rules\n- Pieces fall from the top and can be moved or rotated.\n- Completed horizontal lines clear and score points.\n- The game ends when new pieces can no longer spawn or the stack reaches the top.\n\n\nCharacter: player\nGame controls:\n- left / right: move left or right\n- X: rotate clockwise\n- Z: rotate counter-clockwise\n- down: soft drop (move down slowly)\n- space: hard drop (move down to the bottom immediately)\n- C: Swap piece (swap the current piece with the next piece)",
+    "source_task_sha256": "c72db0edd6ce89161a0918bb957bfbac8691d9b1593b83234ce66c010c168457"
+  },
+  {
+    "task_id": "30_01",
+    "game_id": "30_vex-3",
+    "game_url_suffix": "?level=1",
+    "task": "Pass at least 1 checkpoint in the current act.\n\n\nRules:\nYou are playing Vex 3, a precision platformer with traps.\n\n## Game Objective\n- Reach the checkpoints and then the exit of each level.\n- Avoid spikes, saws, and falling hazards.\n\n## Game Rules\n- Move left/right and jump between platforms.\n- Some sections require crouch sliding or dropping through gaps.\n- Death resets you to checkpoints.\n\n\nCharacter: runner\nGame controls:\n- left / right or A/D: move\n- up + left / right: jump left/right\n- down + left / right: crouch slide left/right",
+    "source_task_sha256": "8a0ee93a99adbd6ce2e398864a50844a64bcd62c6d728522b54f832e06cf99de"
+  },
+  {
+    "task_id": "30_02",
+    "game_id": "30_vex-3",
+    "game_url_suffix": "?level=1",
+    "task": "Pass at least 2 checkpoints in the current act.\n\n\nRules:\nYou are playing Vex 3, a precision platformer with traps.\n\n## Game Objective\n- Reach the checkpoints and then the exit of each level.\n- Avoid spikes, saws, and falling hazards.\n\n## Game Rules\n- Move left/right and jump between platforms.\n- Some sections require crouch sliding or dropping through gaps.\n- Death resets you to checkpoints.\n\n\nCharacter: runner\nGame controls:\n- left / right or A/D: move\n- up + left / right: jump left/right\n- down + left / right: crouch slide left/right",
+    "source_task_sha256": "ed1611efaa1fd22303161c84f130810d68080e436438766eb726c476e81fe5f3"
+  },
+  {
+    "task_id": "30_03",
+    "game_id": "30_vex-3",
+    "game_url_suffix": "?level=1",
+    "task": "Pass at least 3 checkpoints in one run.\n\n\nRules:\nYou are playing Vex 3, a precision platformer with traps.\n\n## Game Objective\n- Reach the checkpoints and then the exit of each level.\n- Avoid spikes, saws, and falling hazards.\n\n## Game Rules\n- Move left/right and jump between platforms.\n- Some sections require crouch sliding or dropping through gaps.\n- Death resets you to checkpoints.\n\n\nCharacter: runner\nGame controls:\n- left / right or A/D: move\n- up + left / right: jump left/right\n- down + left / right: crouch slide left/right",
+    "source_task_sha256": "996551d685a2f3b75f647721a87e29040a9e51ef28ae0f09d2c4d853f260d5e6"
+  },
+  {
+    "task_id": "30_04",
+    "game_id": "30_vex-3",
+    "game_url_suffix": "?level=1",
+    "task": "Pass at least 4 checkpoints in one run.\n\n\nRules:\nYou are playing Vex 3, a precision platformer with traps.\n\n## Game Objective\n- Reach the checkpoints and then the exit of each level.\n- Avoid spikes, saws, and falling hazards.\n\n## Game Rules\n- Move left/right and jump between platforms.\n- Some sections require crouch sliding or dropping through gaps.\n- Death resets you to checkpoints.\n\n\nCharacter: runner\nGame controls:\n- left / right or A/D: move\n- up + left / right: jump left/right\n- down + left / right: crouch slide left/right",
+    "source_task_sha256": "7ad95ca2f904ff8a3d556e0b07fd174c0476d0f982bcb83fcec85a09e25b5ff4"
+  },
+  {
+    "task_id": "30_05",
+    "game_id": "30_vex-3",
+    "game_url_suffix": "?level=1",
+    "task": "Pass all checkpoints and reach the exit in one run.\n\n\nRules:\nYou are playing Vex 3, a precision platformer with traps.\n\n## Game Objective\n- Reach the checkpoints and then the exit of each level.\n- Avoid spikes, saws, and falling hazards.\n\n## Game Rules\n- Move left/right and jump between platforms.\n- Some sections require crouch sliding or dropping through gaps.\n- Death resets you to checkpoints.\n\n\nCharacter: runner\nGame controls:\n- left / right or A/D: move\n- up + left / right: jump left/right\n- down + left / right: crouch slide left/right",
+    "source_task_sha256": "96449c33a59a0175c7c812305030be8c984883ed0c1b44e1f7aae4d593d819d1"
+  },
+  {
+    "task_id": "31_01",
+    "game_id": "31_wolf3d",
+    "game_url_suffix": "",
+    "task": "Eliminate at least 2 enemy guards. The run begins with two guards directly in front of you in the room.\n\n\nRules:\nYou are playing Wolfenstein 3D, a first-person shooter game.\n\n## Game Objective\n- Search for and defeat enemy guards by shooting them.\n- Survive while maximizing kills.\n\n## Game Rules\n- Guards will shoot at you when triggered (shot by you or you are nearby), reducing your health.\n- You start with a pistol and 8 bullets.\n- Killed guards may drop ammo clips.\n- If your health reaches 0, you die and respawn (losing one life).\n- Some enemies are in an adjacent room behind a door. Use the SPACE key near a door to open it.\n\n\nCharacter: player\nGame controls:\n- up: Move forward\n- down: Move backward\n- left: Turn left\n- right: Turn right\n- x: Shoot / Attack\n- space: Use / Open door",
+    "source_task_sha256": "e1bc194847f9296b616001730742e15fbfbd5b9c0fa7091530c4bfed62d9e03f"
+  },
+  {
+    "task_id": "31_02",
+    "game_id": "31_wolf3d",
+    "game_url_suffix": "",
+    "task": "Take down at least 3 enemy guards. Two are in front of you at the start, and four more wait behind a door and may join the fight.\n\n\nRules:\nYou are playing Wolfenstein 3D, a first-person shooter game.\n\n## Game Objective\n- Search for and defeat enemy guards by shooting them.\n- Survive while maximizing kills.\n\n## Game Rules\n- Guards will shoot at you when triggered (shot by you or you are nearby), reducing your health.\n- You start with a pistol and 8 bullets.\n- Killed guards may drop ammo clips.\n- If your health reaches 0, you die and respawn (losing one life).\n- Some enemies are in an adjacent room behind a door. Use the SPACE key near a door to open it.\n\n\nCharacter: player\nGame controls:\n- up: Move forward\n- down: Move backward\n- left: Turn left\n- right: Turn right\n- x: Shoot / Attack\n- space: Use / Open door",
+    "source_task_sha256": "a8b33116ebff1a9b5af379710888aaf9f187baa1be185091e904059e4de8ceb5"
+  },
+  {
+    "task_id": "31_03",
+    "game_id": "31_wolf3d",
+    "game_url_suffix": "",
+    "task": "Defeat at least 4 enemy guards. Two guards are in your starting room, while four more are behind a door and may come in as reinforcements.\n\n\nRules:\nYou are playing Wolfenstein 3D, a first-person shooter game.\n\n## Game Objective\n- Search for and defeat enemy guards by shooting them.\n- Survive while maximizing kills.\n\n## Game Rules\n- Guards will shoot at you when triggered (shot by you or you are nearby), reducing your health.\n- You start with a pistol and 8 bullets.\n- Killed guards may drop ammo clips.\n- If your health reaches 0, you die and respawn (losing one life).\n- Some enemies are in an adjacent room behind a door. Use the SPACE key near a door to open it.\n\n\nCharacter: player\nGame controls:\n- up: Move forward\n- down: Move backward\n- left: Turn left\n- right: Turn right\n- x: Shoot / Attack\n- space: Use / Open door",
+    "source_task_sha256": "1a1ad2cf5acc4add819addb4987076007218fadb2bf427532c440e48275eb979"
+  },
+  {
+    "task_id": "31_04",
+    "game_id": "31_wolf3d",
+    "game_url_suffix": "",
+    "task": "Rack up at least 5 guard kills. Two enemies begin in your room, and four more are positioned behind a door that may open into the fight.\n\n\nRules:\nYou are playing Wolfenstein 3D, a first-person shooter game.\n\n## Game Objective\n- Search for and defeat enemy guards by shooting them.\n- Survive while maximizing kills.\n\n## Game Rules\n- Guards will shoot at you when triggered (shot by you or you are nearby), reducing your health.\n- You start with a pistol and 8 bullets.\n- Killed guards may drop ammo clips.\n- If your health reaches 0, you die and respawn (losing one life).\n- Some enemies are in an adjacent room behind a door. Use the SPACE key near a door to open it.\n\n\nCharacter: player\nGame controls:\n- up: Move forward\n- down: Move backward\n- left: Turn left\n- right: Turn right\n- x: Shoot / Attack\n- space: Use / Open door",
+    "source_task_sha256": "57182f01bf35f40bbf9b49d37a76a7a018b694cb00aeb6bba9a40ef4bcd9f2f5"
+  },
+  {
+    "task_id": "31_05",
+    "game_id": "31_wolf3d",
+    "game_url_suffix": "",
+    "task": "Wipe out all 6 enemy guards. Two are in the starting room, and the other four are behind a door and may rush in as support.\n\n\nRules:\nYou are playing Wolfenstein 3D, a first-person shooter game.\n\n## Game Objective\n- Search for and defeat enemy guards by shooting them.\n- Survive while maximizing kills.\n\n## Game Rules\n- Guards will shoot at you when triggered (shot by you or you are nearby), reducing your health.\n- You start with a pistol and 8 bullets.\n- Killed guards may drop ammo clips.\n- If your health reaches 0, you die and respawn (losing one life).\n- Some enemies are in an adjacent room behind a door. Use the SPACE key near a door to open it.\n\n\nCharacter: player\nGame controls:\n- up: Move forward\n- down: Move backward\n- left: Turn left\n- right: Turn right\n- x: Shoot / Attack\n- space: Use / Open door",
+    "source_task_sha256": "2a961eb822123ee89d84bf3c62f13d54579d45e5b02c68d85d8f94155434114c"
+  },
+  {
+    "task_id": "32_01",
+    "game_id": "32_wordle",
+    "game_url_suffix": "#infinite/1",
+    "task": "Finish this round with all 5 letters in the correct positions (5 green tiles).\n\n\nRules:\nYou are playing Wordle, a word guessing game.\n\n## Game Objective\n- Guess the hidden five-letter word in six tries.\n- Use color feedback to refine guesses.\n\n## Game Rules\n- Each guess must be a valid five-letter word.\n- Green means correct letter in the correct place.\n- Yellow means correct letter in the wrong place.\n- Gray means the letter is not in the word.\n- The guess is auto-submitted when you type the 5th letter.\n\n\nCharacter: player\nGame controls:\n- Type a 5-letter word (e.g., type \"hello\"). The guess is auto-submitted when 5 letters are entered.\n- Use Backspace to clear the input",
+    "source_task_sha256": "adba356eef5dd55a7fd6ba1a9fb9c978049569a9ce42b012b8bb015a347c90fe"
+  },
+  {
+    "task_id": "32_02",
+    "game_id": "32_wordle",
+    "game_url_suffix": "#infinite/2",
+    "task": "Confirm all five exact letter-position matches in this round.\n\n\nRules:\nYou are playing Wordle, a word guessing game.\n\n## Game Objective\n- Guess the hidden five-letter word in six tries.\n- Use color feedback to refine guesses.\n\n## Game Rules\n- Each guess must be a valid five-letter word.\n- Green means correct letter in the correct place.\n- Yellow means correct letter in the wrong place.\n- Gray means the letter is not in the word.\n- The guess is auto-submitted when you type the 5th letter.\n\n\nCharacter: player\nGame controls:\n- Type a 5-letter word (e.g., type \"hello\"). The guess is auto-submitted when 5 letters are entered.\n- Use Backspace to clear the input",
+    "source_task_sha256": "1a8fbbb8fc3990608cfcc7e3921cf37ac648b22920ae01c1e35ab47e5b80831e"
+  },
+  {
+    "task_id": "32_03",
+    "game_id": "32_wordle",
+    "game_url_suffix": "#infinite/3",
+    "task": "Reach 5 correctly placed letters in historical round 3.\n\n\nRules:\nYou are playing Wordle, a word guessing game.\n\n## Game Objective\n- Guess the hidden five-letter word in six tries.\n- Use color feedback to refine guesses.\n\n## Game Rules\n- Each guess must be a valid five-letter word.\n- Green means correct letter in the correct place.\n- Yellow means correct letter in the wrong place.\n- Gray means the letter is not in the word.\n- The guess is auto-submitted when you type the 5th letter.\n\n\nCharacter: player\nGame controls:\n- Type a 5-letter word (e.g., type \"hello\"). The guess is auto-submitted when 5 letters are entered.\n- Use Backspace to clear the input",
+    "source_task_sha256": "5f2fc9b4b1bca5e26bdec6ace66db60e0e4e6586b1aed72e0b695c14cda22a94"
+  },
+  {
+    "task_id": "32_04",
+    "game_id": "32_wordle",
+    "game_url_suffix": "#infinite/4",
+    "task": "End the round with every letter must be correct and in the correct slot.\n\n\nRules:\nYou are playing Wordle, a word guessing game.\n\n## Game Objective\n- Guess the hidden five-letter word in six tries.\n- Use color feedback to refine guesses.\n\n## Game Rules\n- Each guess must be a valid five-letter word.\n- Green means correct letter in the correct place.\n- Yellow means correct letter in the wrong place.\n- Gray means the letter is not in the word.\n- The guess is auto-submitted when you type the 5th letter.\n\n\nCharacter: player\nGame controls:\n- Type a 5-letter word (e.g., type \"hello\"). The guess is auto-submitted when 5 letters are entered.\n- Use Backspace to clear the input",
+    "source_task_sha256": "48ae622018b722b74e5a27edc4f04901564f45f1d83ac9f0075e6a62c4b4cdc8"
+  },
+  {
+    "task_id": "32_05",
+    "game_id": "32_wordle",
+    "game_url_suffix": "#infinite/5",
+    "task": "Solve this round by locking in all 5 correct letter-position matches.\n\n\nRules:\nYou are playing Wordle, a word guessing game.\n\n## Game Objective\n- Guess the hidden five-letter word in six tries.\n- Use color feedback to refine guesses.\n\n## Game Rules\n- Each guess must be a valid five-letter word.\n- Green means correct letter in the correct place.\n- Yellow means correct letter in the wrong place.\n- Gray means the letter is not in the word.\n- The guess is auto-submitted when you type the 5th letter.\n\n\nCharacter: player\nGame controls:\n- Type a 5-letter word (e.g., type \"hello\"). The guess is auto-submitted when 5 letters are entered.\n- Use Backspace to clear the input",
+    "source_task_sha256": "64a1f0f699f1bff97b9a0558c204ea2c2ac79ccc2cfc593f89216057e2c0484a"
+  },
+  {
+    "task_id": "33_01",
+    "game_id": "33_worlds-hardest-game",
+    "game_url_suffix": "?level=1",
+    "task": "Beat level 1 and make it into level 2 or beyond.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Checkpoints save progress after collecting items. Use checkpoints to split the level into safe segments.\n- Observe enemy cycles carefully to avoid them.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "facc306f64b555e3f7d57e932704891ed14066b5b96c23e58a20fee639576f7c"
+  },
+  {
+    "task_id": "33_02",
+    "game_id": "33_worlds-hardest-game",
+    "game_url_suffix": "?level=2",
+    "task": "In this run, finish level 2 and advance to level 3 or higher.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Checkpoints save progress after collecting items. Use checkpoints to split the level into safe segments.\n- Observe enemy cycles carefully to avoid them.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "66dc402ebee29f9551d5fe8eb097846f1a5b16e9bde1e5064b142f2c1235b47b"
+  },
+  {
+    "task_id": "33_03",
+    "game_id": "33_worlds-hardest-game",
+    "game_url_suffix": "?level=3",
+    "task": "Without breaking the run, clear level 3 and get to level 4 or higher.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Checkpoints save progress after collecting items. Use checkpoints to split the level into safe segments.\n- Observe enemy cycles carefully to avoid them.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "a35da7b5e2198f70cfdbbaf7245560931f94dc0f1db1df1a9df5aa1d78c6cb40"
+  },
+  {
+    "task_id": "33_04",
+    "game_id": "33_worlds-hardest-game",
+    "game_url_suffix": "?level=4",
+    "task": "Stay alive through level 4 and enter level 5 or higher in the same run.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Checkpoints save progress after collecting items. Use checkpoints to split the level into safe segments.\n- Observe enemy cycles carefully to avoid them.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "baf70cb00ae8af3bb98c7e223f0a1e881ee6defd7c712fce5ee95ca7112da681"
+  },
+  {
+    "task_id": "33_05",
+    "game_id": "33_worlds-hardest-game",
+    "game_url_suffix": "?level=5",
+    "task": "In one uninterrupted run, clear level 5 and reach level 6 or higher.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Checkpoints save progress after collecting items. Use checkpoints to split the level into safe segments.\n- Observe enemy cycles carefully to avoid them.\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "6a7e4b68d1e1ed6df40ce7bbeaa995ff80681f7d5cb0c65f35dc53c207a5d081"
+  },
+  {
+    "task_id": "34_01",
+    "game_id": "34_worlds-hardest-game-2",
+    "game_url_suffix": "?level=1",
+    "task": "Collect 1 coin while playing level 1.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Observe enemy cycles carefully to avoid them\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "6d0799b83b2d3b78c52276b6708955c8844ca6feeece19303e0d23792cc20707"
+  },
+  {
+    "task_id": "34_02",
+    "game_id": "34_worlds-hardest-game-2",
+    "game_url_suffix": "?level=1",
+    "task": "Pick up 2 coins in level 1.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Observe enemy cycles carefully to avoid them\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "d8cde49704dc9709288fd4bdde66c8e4a47b128f4e07084dddad05ccb3a5a81b"
+  },
+  {
+    "task_id": "34_03",
+    "game_id": "34_worlds-hardest-game-2",
+    "game_url_suffix": "?level=1",
+    "task": "Gather 3 coins before leaving level 1.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Observe enemy cycles carefully to avoid them\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "a0145d01606f9a959717a68582af4c44e306b0ff2d1e120326e1c2983233b112"
+  },
+  {
+    "task_id": "34_04",
+    "game_id": "34_worlds-hardest-game-2",
+    "game_url_suffix": "?level=2",
+    "task": "On level 2, collect at least 1 coin.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Observe enemy cycles carefully to avoid them\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "9cec8f088c8b0e3cb213f710b7d0b63616acb15e8d1376b81bf952c761561256"
+  },
+  {
+    "task_id": "34_05",
+    "game_id": "34_worlds-hardest-game-2",
+    "game_url_suffix": "?level=2",
+    "task": "Play level 2 and come away with at least 2 coins.\n\n\nRules:\nYou are playing World's Hardest Game, a precision maze dodge game.\n\n## Game Objective\n- Collect all coins in the level.\n- Reach the green exit zone to complete the level.\n\n## Game Rules\n- You control a red square in a maze.\n- Blue enemies move on fixed paths and kill you on contact.\n- Observe enemy cycles carefully to avoid them\n\n\nCharacter: player\nGame controls:\n- up: Move up\n- down: Move down\n- left: Move left\n- right: Move right",
+    "source_task_sha256": "76575373926ecebf04f48900bf0c7521c40721362e7d2c96c6072cde71f648e8"
+  }
+]

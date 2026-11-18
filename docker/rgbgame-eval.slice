@@ -1,0 +1,8 @@
+[Unit]
+Description=Bounded RGBGame evaluation workloads
+
+[Slice]
+MemoryAccounting=yes
+MemoryHigh=14G
+MemoryMax=16G
+MemorySwapMax=0

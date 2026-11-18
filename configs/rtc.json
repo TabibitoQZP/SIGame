@@ -1,0 +1,15 @@
+{
+  "method": "rtc",
+  "backend": "gameworld",
+  "task_id": "01_05",
+  "game_seconds": 180,
+  "tick_ms": 200,
+  "response_floor_ms": 3000,
+  "model": "Qwen3.5-2B-RTC32-RL-STEP229",
+  "endpoints": {
+    "rtc": {
+      "url": "http://127.0.0.1:18001/v1",
+      "key_env": "RTC_API_KEY"
+    }
+  }
+}
