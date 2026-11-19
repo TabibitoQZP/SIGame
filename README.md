@@ -49,3 +49,17 @@ uv run rgbgame services down
 For four developers with a midpoint peer review, use `configs/multi_agent.json` and start the services with `--output-token-limit 1048576`.
 
 Games and scoring are provided by [GameWorld](https://github.com/gameworld-project/GameWorld). The game assets are fetched from [GameWorld-Games](https://github.com/gameworld-project/GameWorld-Games). The optional visual client comes from CVAgent.
+
+## Citation
+
+```bibtex
+@misc{qiu2026thinkofflineactreal,
+  title         = {Think Offline, Act in Real Time: Self-Improving Visual Game Agents through Code},
+  author        = {Zipeng Qiu and Shusheng Xu and Jiale Li and Yukun Zhou and Chenyue Li and Wenshuang Li and Tongkai Yang and Binhang Yuan},
+  year          = {2026},
+  eprint        = {2611.24590},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2611.24590},
+}
+```
